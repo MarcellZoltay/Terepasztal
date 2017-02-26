@@ -4,9 +4,9 @@
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>20</x>
+      <x>40</x>
       <y>20</y>
-      <w>630</w>
+      <w>690</w>
       <h>350</h>
     </coordinates>
     <panel_attributes>sd ChangeSwitch</panel_attributes>
@@ -15,7 +15,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>360</x>
+      <x>450</x>
       <y>70</y>
       <w>100</w>
       <h>30</h>
@@ -26,7 +26,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
+      <x>490</x>
       <y>90</y>
       <w>30</w>
       <h>170</h>
@@ -37,10 +37,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>400</x>
+      <x>490</x>
       <y>240</y>
       <w>20</w>
-      <h>80</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -48,7 +48,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>10</x>
+      <x>30</x>
       <y>130</y>
       <w>240</w>
       <h>40</h>
@@ -60,7 +60,7 @@ start()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>190</x>
+      <x>210</x>
       <y>70</y>
       <w>100</w>
       <h>30</h>
@@ -71,7 +71,7 @@ start()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
+      <x>250</x>
       <y>90</y>
       <w>30</w>
       <h>80</h>
@@ -82,10 +82,10 @@ start()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>230</x>
+      <x>250</x>
       <y>150</y>
       <w>20</w>
-      <h>200</h>
+      <h>210</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -93,7 +93,7 @@ start()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
+      <x>260</x>
       <y>160</y>
       <w>90</w>
       <h>70</h>
@@ -105,10 +105,10 @@ read()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>240</x>
+      <x>260</x>
       <y>210</y>
       <w>20</w>
-      <h>120</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -116,19 +116,19 @@ read()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
+      <x>270</x>
       <y>220</y>
-      <w>170</w>
+      <w>240</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-changeSwitch(x,y)</panel_attributes>
-    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+decideActions(x1, y1, x2, y2)</panel_attributes>
+    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>530</x>
+      <x>620</x>
       <y>70</y>
       <w>100</w>
       <h>30</h>
@@ -139,21 +139,21 @@ changeSwitch(x,y)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
+      <x>660</x>
       <y>90</y>
       <w>30</w>
-      <h>190</h>
+      <h>230</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>570</x>
-      <y>260</y>
+      <x>660</x>
+      <y>300</y>
       <w>20</w>
-      <h>50</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -161,68 +161,91 @@ changeSwitch(x,y)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>410</x>
-      <y>240</y>
-      <w>180</w>
+      <x>510</x>
+      <y>280</y>
+      <w>170</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 changeOutput()</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>410</x>
-      <y>290</y>
-      <w>180</w>
+      <x>270</x>
+      <y>330</y>
+      <w>240</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;220.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>300</y>
-      <w>170</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>400</x>
-      <y>310</y>
-      <w>30</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>570</x>
-      <y>300</y>
-      <w>30</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>230</x>
+      <x>490</x>
       <y>340</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>330</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>350</y>
+      <w>30</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>500</x>
+      <y>280</y>
+      <w>20</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>500</x>
+      <y>250</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+changeSwitch(s)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;30.0;20.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>320</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
   </element>
 </diagram>
