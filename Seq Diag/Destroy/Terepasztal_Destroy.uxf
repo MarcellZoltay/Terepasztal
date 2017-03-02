@@ -50,18 +50,6 @@ read()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>10</x>
-      <y>130</y>
-      <w>240</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-start()</panel_attributes>
-    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
       <x>230</x>
       <y>90</y>
       <w>30</w>
@@ -78,7 +66,7 @@ start()</panel_attributes>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_game: Game_</panel_attributes>
+    <panel_attributes>_:Game_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -111,7 +99,7 @@ start()</panel_attributes>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_map: Model_</panel_attributes>
+    <panel_attributes>_:Model_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -173,7 +161,7 @@ removeTunnelEntrance(tE)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>20</x>
+      <x>160</x>
       <y>20</y>
       <w>810</w>
       <h>370</h>
@@ -189,7 +177,7 @@ removeTunnelEntrance(tE)</panel_attributes>
       <w>160</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_tunnel: TunnelEntrance_</panel_attributes>
+    <panel_attributes>_tE: TunnelEntrance_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

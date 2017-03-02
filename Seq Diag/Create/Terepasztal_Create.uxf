@@ -4,25 +4,13 @@
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>20</x>
+      <x>160</x>
       <y>20</y>
-      <w>920</w>
+      <w>800</w>
       <h>370</h>
     </coordinates>
-    <panel_attributes>sd CreateEntrance</panel_attributes>
+    <panel_attributes>sd CreateFirstEntrance</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>10</x>
-      <y>130</y>
-      <w>240</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-start()</panel_attributes>
-    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -32,19 +20,19 @@ start()</panel_attributes>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_game: Game_</panel_attributes>
+    <panel_attributes>_:Game_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>230</x>
-      <y>90</y>
+      <y>100</y>
       <w>30</w>
-      <h>80</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -111,7 +99,7 @@ decideActions(x1, y1, x2, y2)</panel_attributes>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_map: Model_</panel_attributes>
+    <panel_attributes>_:Model_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -184,12 +172,12 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>750</x>
+      <x>780</x>
       <y>300</y>
       <w>170</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_tunnel: TunnelEntrance_</panel_attributes>
+    <panel_attributes>_:TunnelEntrance_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -197,17 +185,17 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
     <coordinates>
       <x>490</x>
       <y>290</y>
-      <w>280</w>
+      <w>310</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
-&lt;&lt;create&gt;&gt; TunnelEntrance(n, n2, p)</panel_attributes>
-    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+&lt;&lt;create&gt;&gt; TunnelEntrance(x, y, n, n2, p)</panel_attributes>
+    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>830</x>
+      <x>860</x>
       <y>320</y>
       <w>30</w>
       <h>90</h>

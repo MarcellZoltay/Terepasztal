@@ -54,7 +54,7 @@
       <w>168</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>_manager: Manager_</panel_attributes>
+    <panel_attributes>_:Manager_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -98,7 +98,7 @@
       <w>204</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 main()</panel_attributes>
     <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
   </element>
@@ -121,7 +121,7 @@ main()</panel_attributes>
       <w>204</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 run()</panel_attributes>
     <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
   </element>
@@ -155,7 +155,7 @@ run()</panel_attributes>
       <w>192</w>
       <h>84</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 addState(Menu)</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0;40.0;50.0;20.0;50.0</additional_attributes>
   </element>
@@ -178,7 +178,7 @@ addState(Menu)</panel_attributes>
       <w>120</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>_menu: Menu_</panel_attributes>
+    <panel_attributes>_:Menu_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -223,7 +223,7 @@ addState(Menu)</panel_attributes>
       <w>204</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 start()</panel_attributes>
     <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
   </element>
@@ -325,7 +325,7 @@ for(String textline : textlines) {
       <w>192</w>
       <h>72</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 addState(Game)</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0;20.0;40.0</additional_attributes>
   </element>
@@ -348,7 +348,7 @@ addState(Game)</panel_attributes>
       <w>120</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>_game: Game_</panel_attributes>
+    <panel_attributes>_:Game_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -367,12 +367,12 @@ addState(Game)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>780</x>
-      <y>648</y>
+      <y>576</y>
       <w>36</w>
-      <h>72</h>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -382,7 +382,7 @@ addState(Game)</panel_attributes>
       <w>360</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 start()</panel_attributes>
     <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
   </element>
@@ -392,7 +392,7 @@ start()</panel_attributes>
       <x>780</x>
       <y>540</y>
       <w>24</w>
-      <h>120</h>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -405,19 +405,19 @@ start()</panel_attributes>
       <w>120</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>_map: Model_</panel_attributes>
+    <panel_attributes>_:Model_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>972</x>
-      <y>636</y>
+      <y>624</y>
       <w>36</w>
-      <h>432</h>
+      <h>444</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;340.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;350.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -425,7 +425,7 @@ start()</panel_attributes>
       <x>972</x>
       <y>588</y>
       <w>24</w>
-      <h>60</h>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -438,7 +438,7 @@ start()</panel_attributes>
       <w>120</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>_view: View_</panel_attributes>
+    <panel_attributes>_:View_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -475,30 +475,6 @@ start()</panel_attributes>
     <panel_attributes>lt=.&gt;
 &lt;&lt;create&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>792</x>
-      <y>612</y>
-      <w>204</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-</panel_attributes>
-    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>444</x>
-      <y>636</y>
-      <w>360</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-</panel_attributes>
-    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -620,7 +596,7 @@ pre-defined map</panel_attributes>
       <w>120</w>
       <h>72</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 read()</panel_attributes>
     <additional_attributes>10.0;10.0;50.0;10.0;50.0;40.0;20.0;40.0</additional_attributes>
   </element>
