@@ -5,8 +5,8 @@
     <id>UMLFrame</id>
     <coordinates>
       <x>52</x>
-      <y>104</y>
-      <w>1183</w>
+      <y>39</y>
+      <w>1053</w>
       <h>728</h>
     </coordinates>
     <panel_attributes>sd CreateSecondEntrance</panel_attributes>
@@ -15,87 +15,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>91</x>
-      <y>169</y>
-      <w>130</w>
-      <h>39</h>
-    </coordinates>
-    <panel_attributes>_:Game_</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>143</x>
-      <y>208</y>
-      <w>39</w>
-      <h>91</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>143</x>
-      <y>273</y>
-      <w>26</w>
-      <h>546</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>156</x>
-      <y>286</y>
-      <w>117</w>
-      <h>91</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-read()</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0;40.0;50.0;20.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>156</x>
-      <y>351</y>
-      <w>26</w>
-      <h>455</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>169</x>
-      <y>364</y>
-      <w>312</w>
-      <h>52</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-decideActions(x1, y1, x2, y2)</panel_attributes>
-    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>143</x>
-      <y>806</y>
-      <w>39</w>
-      <h>65</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>403</x>
-      <y>169</y>
+      <x>273</x>
+      <y>104</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -105,8 +26,8 @@ decideActions(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>195</y>
+      <x>325</x>
+      <y>130</y>
       <w>39</w>
       <h>221</h>
     </coordinates>
@@ -116,8 +37,8 @@ decideActions(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>468</x>
-      <y>403</y>
+      <x>338</x>
+      <y>338</y>
       <w>351</w>
       <h>65</h>
     </coordinates>
@@ -128,8 +49,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>468</x>
-      <y>442</y>
+      <x>338</x>
+      <y>377</y>
       <w>26</w>
       <h>351</h>
     </coordinates>
@@ -139,8 +60,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>793</y>
+      <x>325</x>
+      <y>728</y>
       <w>39</w>
       <h>65</h>
     </coordinates>
@@ -150,8 +71,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>455</x>
-      <y>390</y>
+      <x>325</x>
+      <y>325</y>
       <w>26</w>
       <h>416</h>
     </coordinates>
@@ -161,8 +82,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>169</x>
-      <y>780</y>
+      <x>39</x>
+      <y>715</y>
       <w>312</w>
       <h>39</h>
     </coordinates>
@@ -172,8 +93,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>858</x>
-      <y>468</y>
+      <x>728</x>
+      <y>403</y>
       <w>221</w>
       <h>39</h>
     </coordinates>
@@ -183,8 +104,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>481</x>
-      <y>455</y>
+      <x>351</x>
+      <y>390</y>
       <w>403</w>
       <h>52</h>
     </coordinates>
@@ -195,8 +116,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>962</x>
-      <y>494</y>
+      <x>832</x>
+      <y>429</y>
       <w>39</w>
       <h>65</h>
     </coordinates>
@@ -206,8 +127,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1105</x>
-      <y>195</y>
+      <x>975</x>
+      <y>130</y>
       <w>39</w>
       <h>455</h>
     </coordinates>
@@ -217,8 +138,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1001</x>
-      <y>169</y>
+      <x>871</x>
+      <y>104</y>
       <w>221</w>
       <h>39</h>
     </coordinates>
@@ -228,8 +149,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>962</x>
-      <y>533</y>
+      <x>832</x>
+      <y>468</y>
       <w>26</w>
       <h>65</h>
     </coordinates>
@@ -239,8 +160,8 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1105</x>
-      <y>624</y>
+      <x>975</x>
+      <y>559</y>
       <w>26</w>
       <h>65</h>
     </coordinates>
@@ -250,20 +171,20 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>468</x>
-      <y>507</y>
+      <x>338</x>
+      <y>442</y>
       <w>520</w>
       <h>52</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 changeOutput()</panel_attributes>
     <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>481</x>
-      <y>572</y>
+      <x>351</x>
+      <y>507</y>
       <w>507</w>
       <h>39</h>
     </coordinates>
@@ -273,19 +194,19 @@ changeOutput()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>481</x>
-      <y>598</y>
+      <x>351</x>
+      <y>533</y>
       <w>650</w>
       <h>52</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
+    <panel_attributes>lt=-&gt;&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;20.0;370.0;20.0;380.0;10.0;390.0;20.0;480.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>481</x>
-      <y>650</y>
+      <x>351</x>
+      <y>585</y>
       <w>650</w>
       <h>52</h>
     </coordinates>
@@ -295,8 +216,8 @@ changeOutput()</panel_attributes>
   <element>
     <type>CustomElementImpl</type>
     <coordinates>
-      <x>715</x>
-      <y>598</y>
+      <x>585</x>
+      <y>533</y>
       <w>157</w>
       <h>27</h>
     </coordinates>
@@ -323,8 +244,8 @@ for(String textline : textlines) {
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>962</x>
-      <y>585</y>
+      <x>832</x>
+      <y>520</y>
       <w>39</w>
       <h>273</h>
     </coordinates>
@@ -334,8 +255,8 @@ for(String textline : textlines) {
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1105</x>
-      <y>676</y>
+      <x>975</x>
+      <y>611</y>
       <w>39</w>
       <h>78</h>
     </coordinates>
@@ -345,8 +266,8 @@ for(String textline : textlines) {
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>481</x>
-      <y>754</y>
+      <x>351</x>
+      <y>689</y>
       <w>650</w>
       <h>52</h>
     </coordinates>
@@ -356,19 +277,19 @@ for(String textline : textlines) {
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>481</x>
-      <y>702</y>
+      <x>351</x>
+      <y>637</y>
       <w>650</w>
       <h>52</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
+    <panel_attributes>lt=-&gt;&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;20.0;370.0;20.0;380.0;10.0;390.0;20.0;480.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1105</x>
-      <y>728</y>
+      <x>975</x>
+      <y>663</y>
       <w>26</w>
       <h>65</h>
     </coordinates>
@@ -378,8 +299,8 @@ for(String textline : textlines) {
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1105</x>
-      <y>780</y>
+      <x>975</x>
+      <y>715</y>
       <w>39</w>
       <h>78</h>
     </coordinates>
@@ -389,8 +310,8 @@ for(String textline : textlines) {
   <element>
     <type>CustomElementImpl</type>
     <coordinates>
-      <x>715</x>
-      <y>702</y>
+      <x>585</x>
+      <y>637</y>
       <w>157</w>
       <h>27</h>
     </coordinates>
@@ -413,5 +334,17 @@ int y=textHeight();
 for(String textline : textlines) {
 	y += printLeft(textline,y);
 }</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>39</x>
+      <y>299</y>
+      <w>312</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+decideActions(x1, y1, x2, y2)</panel_attributes>
+    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
   </element>
 </diagram>

@@ -4,68 +4,12 @@
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>160</x>
+      <x>260</x>
       <y>20</y>
-      <w>800</w>
-      <h>370</h>
+      <w>700</w>
+      <h>360</h>
     </coordinates>
     <panel_attributes>sd CreateFirstEntrance</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>190</x>
-      <y>70</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>_:Game_</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>230</x>
-      <y>100</y>
-      <w>30</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>230</x>
-      <y>150</y>
-      <w>20</w>
-      <h>220</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>240</x>
-      <y>160</y>
-      <w>90</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-read()</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0;40.0;50.0;20.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>240</x>
-      <y>210</y>
-      <w>20</w>
-      <h>150</h>
-    </coordinates>
-    <panel_attributes/>
     <additional_attributes/>
   </element>
   <element>
@@ -79,17 +23,6 @@ read()</panel_attributes>
     <panel_attributes>lt=-&gt;&gt;&gt;
 decideActions(x1, y1, x2, y2)</panel_attributes>
     <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>230</x>
-      <y>360</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -142,10 +75,10 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
       <x>470</x>
       <y>350</y>
       <w>30</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -198,9 +131,9 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
       <x>860</x>
       <y>320</y>
       <w>30</w>
-      <h>90</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
 </diagram>

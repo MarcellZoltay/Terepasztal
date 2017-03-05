@@ -25,14 +25,14 @@ g a whole relation at its central square icon
 
 
 // This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>10</zoom_level>
+  <zoom_level>13</zoom_level>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>80</x>
-      <y>100</y>
-      <w>770</w>
-      <h>380</h>
+      <x>13</x>
+      <y>26</y>
+      <w>728</w>
+      <h>429</h>
     </coordinates>
     <panel_attributes>sd Move Trains</panel_attributes>
     <additional_attributes/>
@@ -40,43 +40,10 @@ g a whole relation at its central square icon
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>140</x>
-      <y>170</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>_:Game_</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>180</x>
-      <y>190</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>180</x>
-      <y>220</y>
-      <w>20</w>
-      <h>200</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>340</x>
-      <y>170</y>
-      <w>100</w>
-      <h>30</h>
+      <x>195</x>
+      <y>91</y>
+      <w>130</w>
+      <h>39</h>
     </coordinates>
     <panel_attributes>_:Model_</panel_attributes>
     <additional_attributes/>
@@ -84,10 +51,10 @@ g a whole relation at its central square icon
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>190</y>
-      <w>30</w>
-      <h>70</h>
+      <x>247</x>
+      <y>117</y>
+      <w>39</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -95,10 +62,10 @@ g a whole relation at its central square icon
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>240</y>
-      <w>20</w>
-      <h>170</h>
+      <x>247</x>
+      <y>182</y>
+      <w>26</w>
+      <h>234</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -106,10 +73,10 @@ g a whole relation at its central square icon
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
-      <y>220</y>
-      <w>210</w>
-      <h>40</h>
+      <x>0</x>
+      <y>156</y>
+      <w>273</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 moveEngines()</panel_attributes>
@@ -118,10 +85,10 @@ moveEngines()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>330</x>
-      <y>250</y>
-      <w>480</w>
-      <h>200</h>
+      <x>182</x>
+      <y>195</y>
+      <w>507</w>
+      <h>234</h>
     </coordinates>
     <panel_attributes>loop</panel_attributes>
     <additional_attributes/>
@@ -129,10 +96,10 @@ moveEngines()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>490</x>
-      <y>170</y>
-      <w>100</w>
-      <h>30</h>
+      <x>390</x>
+      <y>91</y>
+      <w>130</w>
+      <h>39</h>
     </coordinates>
     <panel_attributes>_:Engine_</panel_attributes>
     <additional_attributes/>
@@ -140,21 +107,21 @@ moveEngines()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>190</y>
-      <w>30</w>
-      <h>100</h>
+      <x>442</x>
+      <y>117</y>
+      <w>39</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>530</x>
-      <y>270</y>
-      <w>20</w>
-      <h>110</h>
+      <x>442</x>
+      <y>208</y>
+      <w>26</w>
+      <h>208</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -162,10 +129,10 @@ moveEngines()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>250</y>
-      <w>160</w>
-      <h>40</h>
+      <x>260</x>
+      <y>182</y>
+      <w>208</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 move()</panel_attributes>
@@ -174,10 +141,10 @@ move()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>640</x>
-      <y>170</y>
-      <w>100</w>
-      <h>30</h>
+      <x>585</x>
+      <y>91</y>
+      <w>130</w>
+      <h>39</h>
     </coordinates>
     <panel_attributes>_:Car_</panel_attributes>
     <additional_attributes/>
@@ -185,32 +152,21 @@ move()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>190</y>
-      <w>30</w>
-      <h>130</h>
+      <x>637</x>
+      <y>117</y>
+      <w>39</w>
+      <h>234</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>480</x>
-      <y>290</y>
-      <w>300</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>loop</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>680</x>
-      <y>300</y>
-      <w>20</w>
-      <h>70</h>
+      <x>637</x>
+      <y>325</y>
+      <w>26</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -218,10 +174,10 @@ move()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>300</y>
-      <w>160</w>
-      <h>40</h>
+      <x>455</x>
+      <y>299</y>
+      <w>208</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 move()</panel_attributes>
@@ -230,115 +186,10 @@ move()</panel_attributes>
   <element>
     <type>CustomElementImpl</type>
     <coordinates>
-      <x>480</x>
-      <y>310</y>
-      <w>91</w>
-      <h>31</h>
-    </coordinates>
-    <panel_attributes>// Modify the text below and
-// observe the element preview.
-
-[For all cars]</panel_attributes>
-    <additional_attributes/>
-    <custom_code>//Modify the code below to define the element's behavior.
-//
-//Example:  Change the line
-//  y += printCenter(textline,y);
-//to
-//  y += 2*printCenter(textline,y);
-//and observe the element preview.
-
-int y=textHeight();
-
-for(String textline : textlines) {
-	y += printLeft(textline,y);
-}</custom_code>
-  </element>
-  <element>
-    <type>CustomElementImpl</type>
-    <coordinates>
-      <x>620</x>
-      <y>120</y>
-      <w>241</w>
-      <h>31</h>
-    </coordinates>
-    <panel_attributes>// Modify the text below and
-// observe the element preview.
-
-[A Car object in Engines cars array]
-</panel_attributes>
-    <additional_attributes/>
-    <custom_code>//Modify the code below to define the element's behavior.
-//
-//Example:  Change the line
-//  y += printCenter(textline,y);
-//to
-//  y += 2*printCenter(textline,y);
-//and observe the element preview.
-
-int y=textHeight();
-
-for(String textline : textlines) {
-	y += printLeft(textline,y);
-}</custom_code>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>720</x>
-      <y>140</y>
-      <w>40</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;20.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <type>CustomElementImpl</type>
-    <coordinates>
-      <x>330</x>
-      <y>120</y>
-      <w>271</w>
-      <h>31</h>
-    </coordinates>
-    <panel_attributes>// Modify the text below and
-// observe the element preview.
-
-[A Engine object in map's mapItems array]
-</panel_attributes>
-    <additional_attributes/>
-    <custom_code>//Modify the code below to define the element's behavior.
-//
-//Example:  Change the line
-//  y += printCenter(textline,y);
-//to
-//  y += 2*printCenter(textline,y);
-//and observe the element preview.
-
-int y=textHeight();
-
-for(String textline : textlines) {
-	y += printLeft(textline,y);
-}</custom_code>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>570</x>
-      <y>140</y>
-      <w>40</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;20.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <type>CustomElementImpl</type>
-    <coordinates>
-      <x>330</x>
-      <y>270</y>
-      <w>111</w>
-      <h>31</h>
+      <x>182</x>
+      <y>221</y>
+      <w>144</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>// Modify the text below and
 // observe the element preview.
@@ -362,65 +213,34 @@ for(String textline : textlines) {
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>350</y>
-      <w>160</w>
-      <h>30</h>
+      <x>455</x>
+      <y>338</y>
+      <w>208</w>
+      <h>52</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;.
+Status</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>360</y>
-      <w>160</w>
-      <h>30</h>
+      <x>260</x>
+      <y>377</y>
+      <w>208</w>
+      <h>52</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;.
+Status</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>360</y>
-      <w>30</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>530</x>
-      <y>370</y>
-      <w>30</w>
-      <h>130</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>380</x>
-      <y>400</y>
-      <w>30</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>180</x>
-      <y>410</y>
-      <w>30</w>
-      <h>90</h>
+      <x>637</x>
+      <y>364</y>
+      <w>39</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
@@ -428,12 +248,405 @@ for(String textline : textlines) {
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
-      <y>390</y>
-      <w>210</w>
-      <h>30</h>
+      <x>442</x>
+      <y>403</y>
+      <w>39</w>
+      <h>78</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;190.0;10.0</additional_attributes>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>403</y>
+      <w>39</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>390</y>
+      <w>273</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Status</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>767</x>
+      <y>26</y>
+      <w>689</w>
+      <h>468</h>
+    </coordinates>
+    <panel_attributes>sd Move</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>806</x>
+      <y>91</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_:Train_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>975</x>
+      <y>91</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_:Node_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1300</x>
+      <y>91</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_:Train_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1131</x>
+      <y>91</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_n :Node_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>455</x>
+      <y>221</y>
+      <w>104</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>sd Move</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>195</y>
+      <w>182</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+n
+</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>169</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+getNext()</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>234</y>
+      <w>338</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+getTrains()</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>260</y>
+      <w>338</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Train[]</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>299</y>
+      <w>507</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+getX(), getY(), getEndX(), getEndY()</panel_attributes>
+    <additional_attributes>10.0;20.0;370.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>338</y>
+      <w>507</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+x, y, x2, y2</panel_attributes>
+    <additional_attributes>10.0;20.0;370.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>858</x>
+      <y>117</y>
+      <w>39</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>858</x>
+      <y>182</y>
+      <w>26</w>
+      <h>299</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1027</x>
+      <y>195</y>
+      <w>26</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1183</x>
+      <y>260</y>
+      <w>26</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1352</x>
+      <y>325</y>
+      <w>26</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>871</x>
+      <y>377</y>
+      <w>234</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>opt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>910</x>
+      <y>403</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>sd Passangers Off</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>858</x>
+      <y>468</y>
+      <w>39</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1027</x>
+      <y>221</y>
+      <w>39</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1027</x>
+      <y>455</y>
+      <w>39</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1027</x>
+      <y>117</y>
+      <w>39</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1183</x>
+      <y>117</y>
+      <w>39</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1183</x>
+      <y>286</y>
+      <w>39</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1352</x>
+      <y>117</y>
+      <w>39</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1352</x>
+      <y>364</y>
+      <w>39</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>390</x>
+      <y>299</y>
+      <w>286</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>opt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>130</x>
+      <y>468</y>
+      <w>455</w>
+      <h>53</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+
+Ha a mozdony ütközést észlel, akkor nem hívja meg a 
+következő hozzá kapcsolt elem mozgató függvényét</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+int y=textHeight();
+
+for(String textline : textlines) {
+	y += printLeft(textline,y);
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>897</x>
+      <y>507</y>
+      <w>455</w>
+      <h>53</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+
+Ha a vagon állomáson áll, akkor leszállítja az utasokat</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+int y=textHeight();
+
+for(String textline : textlines) {
+	y += printLeft(textline,y);
+}</custom_code>
   </element>
 </diagram>

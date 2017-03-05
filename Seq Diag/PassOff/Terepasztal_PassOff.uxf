@@ -4,9 +4,9 @@
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>20</x>
-      <y>20</y>
-      <w>600</w>
+      <x>300</x>
+      <y>30</y>
+      <w>320</w>
       <h>430</h>
     </coordinates>
     <panel_attributes>sd Passangers Off</panel_attributes>
@@ -15,52 +15,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>50</x>
-      <y>70</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>_:Model_</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>90</x>
-      <y>90</y>
-      <w>30</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>200</x>
-      <y>70</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>_:Engine_</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>240</x>
-      <y>90</y>
-      <w>30</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
       <x>350</x>
-      <y>70</y>
+      <y>80</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -71,7 +27,7 @@
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>90</y>
+      <y>100</y>
       <w>30</w>
       <h>120</h>
     </coordinates>
@@ -81,30 +37,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>90</x>
-      <y>150</y>
-      <w>20</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>240</x>
-      <y>170</y>
-      <w>20</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
       <x>390</x>
-      <y>190</y>
+      <y>200</y>
       <w>20</w>
       <h>240</h>
     </coordinates>
@@ -112,35 +46,11 @@
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>100</x>
-      <y>150</y>
-      <w>160</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-move()</panel_attributes>
-    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>250</x>
-      <y>170</y>
-      <w>160</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-move()</panel_attributes>
-    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLFrame</id>
     <coordinates>
       <x>310</x>
-      <y>280</y>
-      <w>260</w>
+      <y>290</y>
+      <w>300</w>
       <h>160</h>
     </coordinates>
     <panel_attributes>opt</panel_attributes>
@@ -150,7 +60,7 @@ move()</panel_attributes>
     <type>CustomElementImpl</type>
     <coordinates>
       <x>310</x>
-      <y>300</y>
+      <y>310</y>
       <w>201</w>
       <h>21</h>
     </coordinates>
@@ -178,11 +88,11 @@ for(String textline : textlines) {
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>310</y>
+      <y>320</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 getOffPassangers()</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0;40.0;50.0;20.0;50.0</additional_attributes>
   </element>
@@ -190,7 +100,7 @@ getOffPassangers()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>400</x>
-      <y>360</y>
+      <y>370</y>
       <w>20</w>
       <h>60</h>
     </coordinates>
@@ -201,7 +111,7 @@ getOffPassangers()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-      <y>420</y>
+      <y>430</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -209,32 +119,10 @@ getOffPassangers()</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>240</x>
-      <y>220</y>
-      <w>30</w>
-      <h>250</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>90</x>
-      <y>200</y>
-      <w>30</w>
-      <h>270</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;250.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>510</x>
-      <y>70</y>
+      <y>80</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -245,7 +133,7 @@ getOffPassangers()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>550</x>
-      <y>210</y>
+      <y>220</y>
       <w>20</w>
       <h>60</h>
     </coordinates>
@@ -256,7 +144,7 @@ getOffPassangers()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>550</x>
-      <y>90</y>
+      <y>100</y>
       <w>30</w>
       <h>140</h>
     </coordinates>
@@ -267,11 +155,11 @@ getOffPassangers()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>190</y>
+      <y>200</y>
       <w>170</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
+    <panel_attributes>lt=-&gt;&gt;&gt;
 getColor()</panel_attributes>
     <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
   </element>
@@ -279,7 +167,7 @@ getColor()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>250</y>
+      <y>260</y>
       <w>170</w>
       <h>40</h>
     </coordinates>
@@ -291,11 +179,23 @@ Color</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>550</x>
-      <y>260</y>
+      <y>270</y>
       <w>30</w>
       <h>210</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>180</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+move()</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
   </element>
 </diagram>
