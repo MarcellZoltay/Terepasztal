@@ -30,7 +30,7 @@ g a whole relation at its central square icon
     <id>UMLFrame</id>
     <coordinates>
       <x>13</x>
-      <y>26</y>
+      <y>39</y>
       <w>728</w>
       <h>429</h>
     </coordinates>
@@ -41,7 +41,7 @@ g a whole relation at its central square icon
     <id>UMLGeneric</id>
     <coordinates>
       <x>195</x>
-      <y>91</y>
+      <y>104</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -52,7 +52,7 @@ g a whole relation at its central square icon
     <id>Relation</id>
     <coordinates>
       <x>247</x>
-      <y>117</y>
+      <y>130</y>
       <w>39</w>
       <h>91</h>
     </coordinates>
@@ -63,7 +63,7 @@ g a whole relation at its central square icon
     <id>UMLGeneric</id>
     <coordinates>
       <x>247</x>
-      <y>182</y>
+      <y>195</y>
       <w>26</w>
       <h>234</h>
     </coordinates>
@@ -74,7 +74,7 @@ g a whole relation at its central square icon
     <id>Relation</id>
     <coordinates>
       <x>0</x>
-      <y>156</y>
+      <y>169</y>
       <w>273</w>
       <h>52</h>
     </coordinates>
@@ -86,7 +86,7 @@ moveEngines()</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>182</x>
-      <y>195</y>
+      <y>208</y>
       <w>507</w>
       <h>234</h>
     </coordinates>
@@ -97,7 +97,7 @@ moveEngines()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>390</x>
-      <y>91</y>
+      <y>104</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -108,7 +108,7 @@ moveEngines()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>442</x>
-      <y>117</y>
+      <y>130</y>
       <w>39</w>
       <h>117</h>
     </coordinates>
@@ -119,7 +119,7 @@ moveEngines()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>442</x>
-      <y>208</y>
+      <y>221</y>
       <w>26</w>
       <h>208</h>
     </coordinates>
@@ -130,7 +130,7 @@ moveEngines()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>260</x>
-      <y>182</y>
+      <y>195</y>
       <w>208</w>
       <h>52</h>
     </coordinates>
@@ -142,7 +142,7 @@ move()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>585</x>
-      <y>91</y>
+      <y>104</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -153,7 +153,7 @@ move()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>637</x>
-      <y>117</y>
+      <y>130</y>
       <w>39</w>
       <h>234</h>
     </coordinates>
@@ -164,7 +164,7 @@ move()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>637</x>
-      <y>325</y>
+      <y>338</y>
       <w>26</w>
       <h>52</h>
     </coordinates>
@@ -175,7 +175,7 @@ move()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>455</x>
-      <y>299</y>
+      <y>312</y>
       <w>208</w>
       <h>52</h>
     </coordinates>
@@ -187,7 +187,7 @@ move()</panel_attributes>
     <type>CustomElementImpl</type>
     <coordinates>
       <x>182</x>
-      <y>221</y>
+      <y>234</y>
       <w>144</w>
       <h>40</h>
     </coordinates>
@@ -214,7 +214,7 @@ for(String textline : textlines) {
     <id>Relation</id>
     <coordinates>
       <x>455</x>
-      <y>338</y>
+      <y>351</y>
       <w>208</w>
       <h>52</h>
     </coordinates>
@@ -226,7 +226,7 @@ Status</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>260</x>
-      <y>377</y>
+      <y>390</y>
       <w>208</w>
       <h>52</h>
     </coordinates>
@@ -238,7 +238,7 @@ Status</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>637</x>
-      <y>364</y>
+      <y>377</y>
       <w>39</w>
       <h>117</h>
     </coordinates>
@@ -249,7 +249,7 @@ Status</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>442</x>
-      <y>403</y>
+      <y>416</y>
       <w>39</w>
       <h>78</h>
     </coordinates>
@@ -260,7 +260,7 @@ Status</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>247</x>
-      <y>403</y>
+      <y>416</y>
       <w>39</w>
       <h>78</h>
     </coordinates>
@@ -271,7 +271,7 @@ Status</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>0</x>
-      <y>390</y>
+      <y>403</y>
       <w>273</w>
       <h>52</h>
     </coordinates>
@@ -283,7 +283,7 @@ Status</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>767</x>
-      <y>26</y>
+      <y>39</y>
       <w>689</w>
       <h>468</h>
     </coordinates>
@@ -294,7 +294,7 @@ Status</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>806</x>
-      <y>91</y>
+      <y>104</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -305,7 +305,7 @@ Status</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>975</x>
-      <y>91</y>
+      <y>104</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -316,7 +316,7 @@ Status</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1300</x>
-      <y>91</y>
+      <y>104</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -327,7 +327,7 @@ Status</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1131</x>
-      <y>91</y>
+      <y>104</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -338,7 +338,7 @@ Status</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>455</x>
-      <y>221</y>
+      <y>234</y>
       <w>104</w>
       <h>65</h>
     </coordinates>
@@ -349,7 +349,7 @@ Status</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>871</x>
-      <y>195</y>
+      <y>208</y>
       <w>182</w>
       <h>65</h>
     </coordinates>
@@ -362,7 +362,7 @@ n
     <id>Relation</id>
     <coordinates>
       <x>871</x>
-      <y>169</y>
+      <y>182</y>
       <w>182</w>
       <h>52</h>
     </coordinates>
@@ -374,7 +374,7 @@ getNext()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>871</x>
-      <y>234</y>
+      <y>247</y>
       <w>338</w>
       <h>52</h>
     </coordinates>
@@ -386,7 +386,7 @@ getTrains()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>871</x>
-      <y>260</y>
+      <y>273</y>
       <w>338</w>
       <h>52</h>
     </coordinates>
@@ -398,7 +398,7 @@ Train[]</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>871</x>
-      <y>299</y>
+      <y>312</y>
       <w>507</w>
       <h>52</h>
     </coordinates>
@@ -410,7 +410,7 @@ getX(), getY(), getEndX(), getEndY()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>871</x>
-      <y>338</y>
+      <y>351</y>
       <w>507</w>
       <h>52</h>
     </coordinates>
@@ -422,7 +422,7 @@ x, y, x2, y2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>858</x>
-      <y>117</y>
+      <y>130</y>
       <w>39</w>
       <h>91</h>
     </coordinates>
@@ -433,7 +433,7 @@ x, y, x2, y2</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>858</x>
-      <y>182</y>
+      <y>195</y>
       <w>26</w>
       <h>299</h>
     </coordinates>
@@ -444,7 +444,7 @@ x, y, x2, y2</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1027</x>
-      <y>195</y>
+      <y>208</y>
       <w>26</w>
       <h>39</h>
     </coordinates>
@@ -455,7 +455,7 @@ x, y, x2, y2</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1183</x>
-      <y>260</y>
+      <y>273</y>
       <w>26</w>
       <h>39</h>
     </coordinates>
@@ -466,7 +466,7 @@ x, y, x2, y2</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1352</x>
-      <y>325</y>
+      <y>338</y>
       <w>26</w>
       <h>52</h>
     </coordinates>
@@ -477,7 +477,7 @@ x, y, x2, y2</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>871</x>
-      <y>377</y>
+      <y>390</y>
       <w>234</w>
       <h>91</h>
     </coordinates>
@@ -488,7 +488,7 @@ x, y, x2, y2</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>910</x>
-      <y>403</y>
+      <y>416</y>
       <w>182</w>
       <h>52</h>
     </coordinates>
@@ -499,7 +499,7 @@ x, y, x2, y2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>858</x>
-      <y>468</y>
+      <y>481</y>
       <w>39</w>
       <h>52</h>
     </coordinates>
@@ -510,7 +510,7 @@ x, y, x2, y2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1027</x>
-      <y>221</y>
+      <y>234</y>
       <w>39</w>
       <h>182</h>
     </coordinates>
@@ -521,7 +521,7 @@ x, y, x2, y2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1027</x>
-      <y>455</y>
+      <y>468</y>
       <w>39</w>
       <h>65</h>
     </coordinates>
@@ -532,7 +532,7 @@ x, y, x2, y2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1027</x>
-      <y>117</y>
+      <y>130</y>
       <w>39</w>
       <h>104</h>
     </coordinates>
@@ -543,7 +543,7 @@ x, y, x2, y2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1183</x>
-      <y>117</y>
+      <y>130</y>
       <w>39</w>
       <h>169</h>
     </coordinates>
@@ -554,7 +554,7 @@ x, y, x2, y2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1183</x>
-      <y>286</y>
+      <y>299</y>
       <w>39</w>
       <h>234</h>
     </coordinates>
@@ -565,7 +565,7 @@ x, y, x2, y2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1352</x>
-      <y>117</y>
+      <y>130</y>
       <w>39</w>
       <h>234</h>
     </coordinates>
@@ -576,7 +576,7 @@ x, y, x2, y2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1352</x>
-      <y>364</y>
+      <y>377</y>
       <w>39</w>
       <h>156</h>
     </coordinates>
@@ -587,7 +587,7 @@ x, y, x2, y2</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>390</x>
-      <y>299</y>
+      <y>312</y>
       <w>286</w>
       <h>91</h>
     </coordinates>
@@ -598,7 +598,7 @@ x, y, x2, y2</panel_attributes>
     <type>CustomElementImpl</type>
     <coordinates>
       <x>130</x>
-      <y>468</y>
+      <y>481</y>
       <w>455</w>
       <h>53</h>
     </coordinates>
@@ -623,17 +623,43 @@ for(String textline : textlines) {
 }</custom_code>
   </element>
   <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1638</x>
+      <y>117</y>
+      <w>39</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>806</x>
+      <y>312</y>
+      <w>585</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>opt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
     <type>CustomElementImpl</type>
     <coordinates>
       <x>897</x>
-      <y>507</y>
+      <y>520</y>
       <w>455</w>
-      <h>53</h>
+      <h>117</h>
     </coordinates>
     <panel_attributes>// Modify the text below and
 // observe the element preview.
 
-Ha a vagon állomáson áll, akkor leszállítja az utasokat</panel_attributes>
+A vonat megnézi, hogy annak a csomópontnak a
+közelében van-e olyan csomópont amin van vonat. Ha 
+van lekéri a koordinátáit és megnézi, hogy ütköztek-e.
+Ha a első nemüres vagon állomáson áll,
+akkor leszállítja az utasokat</panel_attributes>
     <additional_attributes/>
     <custom_code>//Modify the code below to define the element's behavior.
 //
@@ -646,7 +672,7 @@ Ha a vagon állomáson áll, akkor leszállítja az utasokat</panel_attributes>
 int y=textHeight();
 
 for(String textline : textlines) {
-	y += printLeft(textline,y);
+	y += printCenter(textline,y);
 }</custom_code>
   </element>
 </diagram>
