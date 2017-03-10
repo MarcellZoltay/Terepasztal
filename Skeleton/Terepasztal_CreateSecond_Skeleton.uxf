@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>91</x>
+      <y>0</y>
+      <w>871</w>
+      <h>728</h>
+    </coordinates>
+    <panel_attributes>sd CreateSecondEntrance</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>130</x>
+      <y>65</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_map :Model_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>91</y>
+      <w>39</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>195</x>
+      <y>299</y>
+      <w>351</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;30.0;20.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>195</x>
+      <y>338</y>
+      <w>26</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>689</y>
+      <w>39</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>182</x>
+      <y>286</y>
+      <w>26</w>
+      <h>416</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>585</x>
+      <y>364</y>
+      <w>221</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_t2 :TunnelEntrance_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>351</y>
+      <w>403</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;create&gt;&gt; TunnelEntrance(x, y, n, n2, p)</panel_attributes>
+    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>689</x>
+      <y>390</y>
+      <w>39</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>91</y>
+      <w>39</w>
+      <h>455</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;330.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>728</x>
+      <y>65</y>
+      <w>221</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_t1 :TunnelEntrance_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>689</x>
+      <y>429</y>
+      <w>26</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>832</x>
+      <y>520</y>
+      <w>26</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>195</x>
+      <y>403</y>
+      <w>520</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+changeOutput()</panel_attributes>
+    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>468</y>
+      <w>507</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;370.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>494</y>
+      <w>650</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;370.0;20.0;380.0;10.0;390.0;20.0;480.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>546</y>
+      <w>650</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;20.0;370.0;20.0;380.0;10.0;390.0;20.0;480.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>442</x>
+      <y>494</y>
+      <w>157</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+
+setSecond(t2)</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+int y=textHeight();
+
+//drawRectangle(0,0,width,height);
+for(String textline : textlines) {
+	y += printLeft(textline,y);
+}</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>689</x>
+      <y>481</y>
+      <w>39</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>572</y>
+      <w>39</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>650</y>
+      <w>650</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;20.0;370.0;20.0;380.0;10.0;390.0;20.0;480.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>598</y>
+      <w>650</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;370.0;20.0;380.0;10.0;390.0;20.0;480.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>832</x>
+      <y>624</y>
+      <w>26</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>676</y>
+      <w>39</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>442</x>
+      <y>598</y>
+      <w>157</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+
+changeOutput()</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+int y=textHeight();
+
+//drawRectangle(0,0,width,height);
+for(String textline : textlines) {
+	y += printLeft(textline,y);
+}</custom_code>
+  </element>
+</diagram>
