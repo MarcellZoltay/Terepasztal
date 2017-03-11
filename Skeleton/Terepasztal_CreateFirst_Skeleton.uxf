@@ -4,10 +4,10 @@
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>40</x>
-      <y>30</y>
+      <x>20</x>
+      <y>180</y>
       <w>560</w>
-      <h>360</h>
+      <h>210</h>
     </coordinates>
     <panel_attributes>sd CreateFirstEntrance</panel_attributes>
     <additional_attributes/>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>70</x>
-      <y>80</y>
+      <x>50</x>
+      <y>230</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -26,41 +26,18 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>110</x>
-      <y>100</y>
+      <x>90</x>
+      <y>250</y>
       <w>30</w>
-      <h>170</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>260</y>
-      <w>270</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0;40.0;30.0;20.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>120</x>
-      <y>290</y>
-      <w>20</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>110</x>
+      <x>90</x>
       <y>360</y>
       <w>30</w>
       <h>50</h>
@@ -71,10 +48,10 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>110</x>
-      <y>250</y>
+      <x>90</x>
+      <y>300</y>
       <w>20</w>
-      <h>120</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -82,7 +59,7 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>420</x>
+      <x>400</x>
       <y>310</y>
       <w>170</w>
       <h>30</h>
@@ -93,19 +70,19 @@ addTunnelEntrance(x1, y1, x2, y2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>130</x>
+      <x>100</x>
       <y>300</y>
-      <w>310</w>
+      <w>320</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;create&gt;&gt; TunnelEntrance(x, y, n, n2, p)</panel_attributes>
-    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>500</x>
+      <x>480</x>
       <y>330</y>
       <w>30</w>
       <h>80</h>
