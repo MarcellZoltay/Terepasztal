@@ -7,7 +7,7 @@
       <x>240</x>
       <y>90</y>
       <w>760</w>
-      <h>660</h>
+      <h>620</h>
     </coordinates>
     <panel_attributes>sd PassangersOff</panel_attributes>
     <additional_attributes/>
@@ -74,10 +74,10 @@ getOffPassangers()</panel_attributes>
       <x>340</x>
       <y>670</y>
       <w>30</w>
-      <h>100</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -128,12 +128,12 @@ addTrain(c)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>710</x>
-      <y>660</y>
+      <y>650</y>
       <w>30</w>
-      <h>110</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -302,10 +302,10 @@ to invalid, thus getting the passangers off</panel_attributes>
       <x>900</x>
       <y>500</y>
       <w>30</w>
-      <h>270</h>
+      <h>230</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;250.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
