@@ -29,8 +29,8 @@ g a whole relation at its central square icon
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>13</x>
-      <y>52</y>
+      <x>52</x>
+      <y>13</y>
       <w>1027</w>
       <h>520</h>
     </coordinates>
@@ -40,8 +40,8 @@ g a whole relation at its central square icon
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>195</x>
-      <y>117</y>
+      <x>234</x>
+      <y>78</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -51,8 +51,8 @@ g a whole relation at its central square icon
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>247</x>
-      <y>143</y>
+      <x>286</x>
+      <y>104</y>
       <w>39</w>
       <h>91</h>
     </coordinates>
@@ -62,8 +62,8 @@ g a whole relation at its central square icon
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>247</x>
-      <y>208</y>
+      <x>286</x>
+      <y>169</y>
       <w>26</w>
       <h>234</h>
     </coordinates>
@@ -73,8 +73,8 @@ g a whole relation at its central square icon
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>0</x>
-      <y>182</y>
+      <x>39</x>
+      <y>143</y>
       <w>273</w>
       <h>52</h>
     </coordinates>
@@ -85,8 +85,8 @@ moveEngines()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>390</x>
-      <y>117</y>
+      <x>429</x>
+      <y>78</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -96,8 +96,8 @@ moveEngines()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>442</x>
-      <y>143</y>
+      <x>481</x>
+      <y>104</y>
       <w>39</w>
       <h>117</h>
     </coordinates>
@@ -107,8 +107,8 @@ moveEngines()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>442</x>
-      <y>234</y>
+      <x>481</x>
+      <y>195</y>
       <w>26</w>
       <h>208</h>
     </coordinates>
@@ -118,8 +118,8 @@ moveEngines()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>208</y>
+      <x>299</x>
+      <y>169</y>
       <w>208</w>
       <h>52</h>
     </coordinates>
@@ -130,8 +130,8 @@ move()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>403</y>
+      <x>299</x>
+      <y>364</y>
       <w>208</w>
       <h>52</h>
     </coordinates>
@@ -142,8 +142,8 @@ CRASHED</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>442</x>
-      <y>429</y>
+      <x>481</x>
+      <y>390</y>
       <w>39</w>
       <h>169</h>
     </coordinates>
@@ -153,8 +153,8 @@ CRASHED</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>247</x>
-      <y>429</y>
+      <x>286</x>
+      <y>390</y>
       <w>39</w>
       <h>169</h>
     </coordinates>
@@ -164,20 +164,20 @@ CRASHED</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>0</x>
-      <y>416</y>
+      <x>39</x>
+      <y>377</y>
       <w>273</w>
       <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-CRASHED</panel_attributes>
+GAMELOST</panel_attributes>
     <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>936</x>
-      <y>143</y>
+      <x>975</x>
+      <y>104</y>
       <w>39</w>
       <h>260</h>
     </coordinates>
@@ -187,8 +187,8 @@ CRASHED</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>936</x>
-      <y>377</y>
+      <x>975</x>
+      <y>338</y>
       <w>26</w>
       <h>52</h>
     </coordinates>
@@ -198,8 +198,8 @@ CRASHED</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>884</x>
-      <y>117</y>
+      <x>923</x>
+      <y>78</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -209,8 +209,8 @@ CRASHED</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>936</x>
-      <y>416</y>
+      <x>975</x>
+      <y>377</y>
       <w>39</w>
       <h>182</h>
     </coordinates>
@@ -220,8 +220,8 @@ CRASHED</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>390</y>
+      <x>494</x>
+      <y>351</y>
       <w>507</w>
       <h>52</h>
     </coordinates>
@@ -232,8 +232,8 @@ x, y, x2, y2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>351</y>
+      <x>494</x>
+      <y>312</y>
       <w>507</w>
       <h>52</h>
     </coordinates>
@@ -244,8 +244,8 @@ getX(), getY(), getEndX(), getEndY()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>767</x>
-      <y>338</y>
+      <x>806</x>
+      <y>299</y>
       <w>39</w>
       <h>260</h>
     </coordinates>
@@ -255,8 +255,8 @@ getX(), getY(), getEndX(), getEndY()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>767</x>
-      <y>143</y>
+      <x>806</x>
+      <y>104</y>
       <w>39</w>
       <h>195</h>
     </coordinates>
@@ -266,8 +266,8 @@ getX(), getY(), getEndX(), getEndY()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>767</x>
-      <y>312</y>
+      <x>806</x>
+      <y>273</y>
       <w>26</w>
       <h>39</h>
     </coordinates>
@@ -277,8 +277,8 @@ getX(), getY(), getEndX(), getEndY()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>286</y>
+      <x>494</x>
+      <y>247</y>
       <w>338</w>
       <h>52</h>
     </coordinates>
@@ -289,8 +289,8 @@ getTrains()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>312</y>
+      <x>494</x>
+      <y>273</y>
       <w>338</w>
       <h>52</h>
     </coordinates>
@@ -301,8 +301,8 @@ Train[]</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>715</x>
-      <y>117</y>
+      <x>754</x>
+      <y>78</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -312,8 +312,8 @@ Train[]</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>559</x>
-      <y>117</y>
+      <x>598</x>
+      <y>78</y>
       <w>130</w>
       <h>39</h>
     </coordinates>
@@ -323,8 +323,8 @@ Train[]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>221</y>
+      <x>494</x>
+      <y>182</y>
       <w>182</w>
       <h>52</h>
     </coordinates>
@@ -335,8 +335,8 @@ getNext()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>247</y>
+      <x>494</x>
+      <y>208</y>
       <w>182</w>
       <h>65</h>
     </coordinates>
@@ -348,8 +348,8 @@ n2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>611</x>
-      <y>143</y>
+      <x>650</x>
+      <y>104</y>
       <w>39</w>
       <h>130</h>
     </coordinates>
@@ -359,8 +359,8 @@ n2
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>611</x>
-      <y>247</y>
+      <x>650</x>
+      <y>208</y>
       <w>26</w>
       <h>39</h>
     </coordinates>
@@ -370,8 +370,8 @@ n2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>611</x>
-      <y>273</y>
+      <x>650</x>
+      <y>234</y>
       <w>39</w>
       <h>325</h>
     </coordinates>
