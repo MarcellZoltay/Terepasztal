@@ -50,7 +50,7 @@
     <coordinates>
       <x>140</x>
       <y>60</y>
-      <w>180</w>
+      <w>250</w>
       <h>220</h>
     </coordinates>
     <panel_attributes>sd EndWin</panel_attributes>
@@ -79,5 +79,16 @@ checkTrains()</panel_attributes>
     <panel_attributes>lt=&lt;.
 GAMEWON</panel_attributes>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>260</x>
+      <y>180</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>sd LastPass</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
