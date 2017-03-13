@@ -23,7 +23,7 @@ public class Car extends Train {
      * @param on 
      * @param c
      */
-    public void Car(int x, int y, int xE, int yE, Node on, Color c) {
+    public Car(int x, int y, int xE, int yE, Node on, Color c) {
         // TODO implement here
     }
 
@@ -35,18 +35,18 @@ public class Car extends Train {
     }
 
     /**
-     * 
+     * @return
      */
-    public void move() {
+    public Train getPrevTrain() {
         // TODO implement here
+        return null;
     }
 
     /**
-     * @return
+     * @param t
      */
-    public Color getColor() {
+    public void setPrevTrain(Train t) {
         // TODO implement here
-        return null;
     }
 
 }

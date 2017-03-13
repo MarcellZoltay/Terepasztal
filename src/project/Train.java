@@ -17,6 +17,14 @@ public abstract class Train extends MapItem {
     /**
      * @return
      */
+    public Status move() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @return
+     */
     public int getEndX() {
         // TODO implement here
         return 0;
@@ -39,11 +47,40 @@ public abstract class Train extends MapItem {
     }
 
     /**
+     * @param n
+     */
+    public void setOnNode(Node n) {
+        // TODO implement here
+    }
+
+    /**
      * @return
      */
     public Node getPrevNode() {
         // TODO implement here
         return null;
+    }
+
+    /**
+     * @param p
+     */
+    public void setPrevNode(Node p) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public Car getNextCar() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @param c
+     */
+    public void setNextCar(Car c) {
+        // TODO implement here
     }
 
 }

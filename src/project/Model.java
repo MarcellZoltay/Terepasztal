@@ -1,10 +1,12 @@
+package project;
 
+import java.io.Serializable;
 import java.util.*;
 
 /**
  * 
  */
-public class Model {
+public class Model implements Serializable {
 
     /**
      * Default constructor
@@ -12,26 +14,12 @@ public class Model {
     public Model() {
     }
 
-
     /**
-     * 
+     * @return
      */
-    public void Model() {
+    public Status moveEngines() {
         // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void moveEngines() {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void checkTrains() {
-        // TODO implement here
+        return null;
     }
 
     /**
