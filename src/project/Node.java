@@ -13,6 +13,29 @@ public abstract class Node extends MapItem {
     public Node() {
     }
 
+
+    /**
+     * @param t
+     */
+    public void addTrain(Train t) {
+        // TODO implement here
+    }
+
+    /**
+     * @param t
+     */
+    public void removeTrain(Train t) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public Train[] getTrains() {
+        // TODO implement here
+        return null;
+    }
+
     /**
      * @return
      */
@@ -22,11 +45,25 @@ public abstract class Node extends MapItem {
     }
 
     /**
+     * @param n
+     */
+    public void setNext(Node n) {
+        // TODO implement here
+    }
+
+    /**
      * @return
      */
     public Node getPrev() {
         // TODO implement here
         return null;
+    }
+
+    /**
+     * @param p
+     */
+    public void setPrev(Node p) {
+        // TODO implement here
     }
 
 }

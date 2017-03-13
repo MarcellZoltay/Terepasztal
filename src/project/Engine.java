@@ -25,34 +25,4 @@ public class Engine extends Train {
         // TODO implement here
     }
 
-    /**
-     * 
-     */
-    public void move() {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public Car getFirstNotEmptyCar() {
-        // TODO implement here
-        return null;
-    }
-
-    /**
-     * @return
-     */
-    public Car[] getCars() {
-        // TODO implement here
-        return null;
-    }
-
-    /**
-     * @param c
-     */
-    public void addCar(Car c) {
-        // TODO implement here
-    }
-
 }

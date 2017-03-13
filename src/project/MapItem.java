@@ -1,18 +1,18 @@
 package project;
 
+import java.io.Serializable;
 import java.util.*;
 
 /**
  * 
  */
-public abstract class MapItem {
+public abstract class MapItem implements Serializable {
 
     /**
      * Default constructor
      */
     public MapItem() {
     }
-
 
     /**
      * @return

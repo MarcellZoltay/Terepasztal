@@ -14,6 +14,7 @@ public class Station extends Node {
     public Station() {
     }
 
+
     /**
      * @param x 
      * @param y 
@@ -21,14 +22,14 @@ public class Station extends Node {
      * @param p 
      * @param c
      */
-    public void Station(int x, int y, Node n, Node p, Color c) {
+    public Station(int x, int y, Node n, Node p, Color c) {
         // TODO implement here
     }
 
     /**
      * @return
      */
-    public Node getColor() {
+    public Color getColor() {
         // TODO implement here
         return null;
     }
