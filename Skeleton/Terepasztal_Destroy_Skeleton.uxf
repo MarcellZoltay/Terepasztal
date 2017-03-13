@@ -2,24 +2,12 @@
 <diagram program="umlet" version="14.2">
   <zoom_level>10</zoom_level>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>20</x>
-      <y>230</y>
-      <w>240</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-decideActions(x1, y1, x2, y2)</panel_attributes>
-    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>240</x>
-      <y>250</y>
+      <y>310</y>
       <w>20</w>
-      <h>120</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -28,46 +16,23 @@ decideActions(x1, y1, x2, y2)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>200</x>
-      <y>80</y>
+      <y>230</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_:Model_</panel_attributes>
+    <panel_attributes>_map :Model_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>240</x>
-      <y>100</y>
+      <y>250</y>
       <w>30</w>
-      <h>170</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>250</x>
-      <y>260</y>
-      <w>230</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-removeTunnelEntrance(tE)</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0;40.0;30.0;20.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>250</x>
-      <y>290</y>
-      <w>20</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -81,23 +46,12 @@ removeTunnelEntrance(tE)</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>20</x>
-      <y>350</y>
-      <w>240</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;220.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>30</x>
-      <y>30</y>
-      <w>570</w>
-      <h>370</h>
+      <x>170</x>
+      <y>180</y>
+      <w>430</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes>sd DestroyFirstEntrance</panel_attributes>
     <additional_attributes/>
@@ -106,23 +60,23 @@ removeTunnelEntrance(tE)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>430</x>
-      <y>80</y>
+      <y>230</y>
       <w>160</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_tE: TunnelEntrance_</panel_attributes>
+    <panel_attributes>_t1: TunnelEntrance_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>500</x>
-      <y>100</y>
+      <y>250</y>
       <w>30</w>
-      <h>250</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
@@ -138,12 +92,12 @@ removeTunnelEntrance(tE)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
+      <x>250</x>
       <y>320</y>
-      <w>270</w>
+      <w>280</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;250.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;260.0;10.0</additional_attributes>
   </element>
 </diagram>
