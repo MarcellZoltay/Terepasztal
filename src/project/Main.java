@@ -47,29 +47,23 @@ public class Main {
             switch (b) {
                 case 1:
                     System.out.println(b+". Váltó állítása");
-                    tabs++;
                     changeSwitch();
                     break;
                 case 2:
                     System.out.println(b+". Alagút létrehozása");
-                    tabs++;
                     break;
                 case 3:
                     System.out.println(b+". Alagút törlése");
-                    tabs++;
                     break;
                 case 4:
                     System.out.println(b+". Vonat mozgatása");
-                    tabs++;
                     moveTrains();
                     break;
                 case 5:
                     System.out.println(b+". Leszállás");
-                    tabs++;
                     break;
                 case 6:
                     System.out.println(b+". Játék kimenete");
-                    tabs++;
                     break;
             }
 	}
@@ -85,12 +79,10 @@ public class Main {
                 Switch s = new Switch(1, 1, null, null, null);
                 s.changeOutput();
             }
-            tabs--;
 	}
         
         public static void moveTrains() {
             Model map = new Model();
             map.moveEngines();
-            tabs--;
         }
 }
