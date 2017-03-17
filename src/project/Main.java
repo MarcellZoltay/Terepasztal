@@ -30,7 +30,7 @@ public class Main {
 		}
 	}
 	public static int menuWrite(){
-		System.out.println( "Menü:" +"\n"+
+		System.out.print( "\n \nMenü:" +"\n"+
 				"1. Váltó állítása" +"\n"+
 				"2. Alagút létrehozása" +"\n"+
 				"3. Alagút törlése"+"\n" +
@@ -40,29 +40,39 @@ public class Main {
 				"? Adja meg a parancs kódját: "
 		);
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
+                int a = 0;
+                try {
+                    a = sc.nextInt();
+                } catch(Exception e) {}
 		return a;
 	}
 	public static void runSkeleton(int b) {
 		switch (b) {
 			case 1:
 				System.out.println(b+". Váltó állítása");
+                                tabs++;
 				changeSwitch();
 				break;
 			case 2:
 				System.out.println(b+". Alagút létrehozása");
+                                tabs++;
 				break;
 			case 3:
 				System.out.println(b+". Alagút törlése");
+                                tabs++;
 				break;
 			case 4:
 				System.out.println(b+". Vonat mozgatása");
+                                tabs++;
+                                moveTrains();
 				break;
 			case 5:
 				System.out.println(b+". Leszállás");
+                                tabs++;
 				break;
 			case 6:
 				System.out.println(b+". Játék kimenete");
+                                tabs++;
 				break;
 		}
 	}
@@ -80,4 +90,10 @@ public class Main {
 		}
 		tabs--;
 	}
+        
+        public static void moveTrains() {
+            Model map = new Model();
+            map.moveEngines();
+            tabs--;
+        }
 }
