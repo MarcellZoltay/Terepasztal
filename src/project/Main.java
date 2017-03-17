@@ -25,7 +25,6 @@ public class Main {
                 b = menuWrite();
             }
             runSkeleton(b);
-            b = menuWrite();
 	}
 	public static int menuWrite(){
             System.out.print( "\n \nMenü:" +"\n"+
@@ -34,7 +33,7 @@ public class Main {
                             "3. Alagút törlése"+"\n" +
                             "4. Vonat mozgatása" +"\n" +
                             "5. Leszállás"+ "\n"+
-                            "6. Játék kimenete"+ "\n"+ "\n"+
+                            "6. Játék kimenete"+ "\n"+ "\n" +
                             "? Adja meg a parancs kódját: "
             );
             Scanner sc = new Scanner(System.in);
