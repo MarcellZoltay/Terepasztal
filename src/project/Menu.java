@@ -1,11 +1,11 @@
 package project;
 
-import static project.States.PAUSE;
+import static project.Status.PAUSE;
 
 public class Menu implements State {
 
     @Override
-    public States start(){
+    public Status start(){
 
         return PAUSE;
 

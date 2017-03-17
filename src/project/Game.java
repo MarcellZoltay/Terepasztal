@@ -1,11 +1,11 @@
 package project;
 
-import static project.States.NEWGAME;
+import static project.Status.NEWGAME;
 
 public class Game implements State{
 
     @Override
-    public States start() {
+    public Status start() {
 
         return NEWGAME;
 
