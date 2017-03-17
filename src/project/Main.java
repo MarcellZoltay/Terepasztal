@@ -16,16 +16,17 @@ import java.util.Scanner;
 
 public class Main {
 	public static int tabs = 0;
+        
 	public static void main(String[] args){
 		int b;
 		while (true) {
-			b=menuWrite();
+			b = menuWrite();
 			while (b < 1 || b > 6) {
 				System.out.println("Ilyen parancs nem létezik");
 				b = menuWrite();
 			}
 			runSkeleton(b);
-			b=menuWrite();
+			b = menuWrite();
 		}
 	}
 	public static int menuWrite(){
@@ -74,7 +75,7 @@ public class Main {
 			e.printStackTrace();
 		}
 		if (c == 'I' || c =='i') {
-			Switch s = new Switch();
+			Switch s = new Switch(1, 1, null, null, null);
 			s.changeOutput();
 		}
 		tabs--;
