@@ -19,6 +19,17 @@ public class Switch extends Node {
 	}
 	
 	public void changeOutput() {
+            System.out.print(">");
+            for(int i = 0; i <= Main.tabs; i++) {
+                System.out.print("\t");
+            }  
+            System.out.print("->[:Switch].changeOutput()\n");
+            
+            System.out.print("<");
+            for(int i = 0; i <= Main.tabs; i++) {
+                System.out.print("\t");
+            }  
+            System.out.print("<-[:Switch].changeOutput()\n");
 	}
 	
 	public Node getSecond() {

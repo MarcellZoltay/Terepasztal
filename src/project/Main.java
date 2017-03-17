@@ -11,9 +11,52 @@
 
 package project;
 
+import java.util.Scanner;
+
 public class Main {
+    
+        public static int tabs = 0;
+        
+        // Ide soroljátok fel a többi menüpontot
+        static void printMenu() {
+            System.out.print("1. Váltó állítása\n");
+            System.out.print("? Please pick an option: ");
+        }
 
 	public static void main(String[] args) {
+            
+            Scanner sc = new Scanner(System.in);
+            int option;
+            
+            printMenu();
+            option = sc.nextInt();
+           
+            // Az elsőhöz hasonlóan a többi case-t
+            switch(option) {
+                case 1: changeSwitch(); tabs++;
+                    break;
+                    
+                default: System.out.print("\1nPick a viable option: ");
+            }
+            
 	}
+        
+        // A függvény ami a ChangeSwitch szekvencia diagramot indítja
+        public static void changeSwitch() {
+            
+            System.out.print("- 1. Váltó állítása\n? 1.1. Szeretné átállítani a váltó kimenetét? I/N: ");
+            char c = 0;
+            try{
+                c = (char) System.in.read();
+            } catch(Exception e) {
+                e.printStackTrace();
+            }
+            if (c == 'I' || c =='i') {
+                Switch s = new Switch();
+                s.changeOutput(); 
+            }
+            
+            tabs--;
+        }
 
 }
