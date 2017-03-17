@@ -19,7 +19,32 @@ public class Station extends Node {
 
 	}
 	
-	public String getColor() {
+	public String getColor(){
+		System.out.print(">");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("->[:Station].getColor()\n");
+
+		System.out.print("?");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("5.2. Milyen színű az állomás? R/Green/B/Y/Gray :");
+		char c;
+		try{
+			c = (char) System.in.read();
+			c = (char) System.in.read();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+
+		System.out.print("<");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("<-[:Station].getColor()\n");
+
 		return null;
 	}
 }

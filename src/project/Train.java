@@ -55,6 +55,30 @@ public abstract class Train extends MapItem {
 	}
 	
 	public String getColor() {
+		System.out.print(">");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("->[:Car].getColor()\n");
+
+		System.out.print("?");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("5.1. Milyen színű a vagon? R/Green/B/Y/Gray :");
+		char c;
+		try{
+			c = (char) System.in.read();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+
+		System.out.print("<");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("<-[:Car].getColor()\n");
+
 		return null;
 	}
 }
