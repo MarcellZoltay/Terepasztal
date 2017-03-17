@@ -18,77 +18,75 @@ public class Main {
 	public static int tabs = 0;
         
 	public static void main(String[] args){
-		int b;
-		while (true) {
-			b = menuWrite();
-			while (b < 1 || b > 6) {
-				System.out.println("Ilyen parancs nem létezik");
-				b = menuWrite();
-			}
-			runSkeleton(b);
-			b = menuWrite();
-		}
+            int b;
+            b = menuWrite();
+            while (b < 1 || b > 6) {
+                System.out.println("Ilyen parancs nem létezik");
+                b = menuWrite();
+            }
+            runSkeleton(b);
+            b = menuWrite();
 	}
 	public static int menuWrite(){
-		System.out.print( "\n \nMenü:" +"\n"+
-				"1. Váltó állítása" +"\n"+
-				"2. Alagút létrehozása" +"\n"+
-				"3. Alagút törlése"+"\n" +
-				"4. Vonat mozgatása" +"\n" +
-				"5. Leszállás"+ "\n"+
-				"6. Játék kimenete"+ "\n"+ "\n"+
-				"? Adja meg a parancs kódját: "
-		);
-		Scanner sc = new Scanner(System.in);
-                int a = 0;
-                try {
-                    a = sc.nextInt();
-                } catch(Exception e) {}
-		return a;
+            System.out.print( "\n \nMenü:" +"\n"+
+                            "1. Váltó állítása" +"\n"+
+                            "2. Alagút létrehozása" +"\n"+
+                            "3. Alagút törlése"+"\n" +
+                            "4. Vonat mozgatása" +"\n" +
+                            "5. Leszállás"+ "\n"+
+                            "6. Játék kimenete"+ "\n"+ "\n"+
+                            "? Adja meg a parancs kódját: "
+            );
+            Scanner sc = new Scanner(System.in);
+            int a = 0;
+            try {
+                a = sc.nextInt();
+            } catch(Exception e) {}
+            return a;
 	}
 	public static void runSkeleton(int b) {
-		switch (b) {
-			case 1:
-				System.out.println(b+". Váltó állítása");
-                                tabs++;
-				changeSwitch();
-				break;
-			case 2:
-				System.out.println(b+". Alagút létrehozása");
-                                tabs++;
-				break;
-			case 3:
-				System.out.println(b+". Alagút törlése");
-                                tabs++;
-				break;
-			case 4:
-				System.out.println(b+". Vonat mozgatása");
-                                tabs++;
-                                moveTrains();
-				break;
-			case 5:
-				System.out.println(b+". Leszállás");
-                                tabs++;
-				break;
-			case 6:
-				System.out.println(b+". Játék kimenete");
-                                tabs++;
-				break;
-		}
+            switch (b) {
+                case 1:
+                    System.out.println(b+". Váltó állítása");
+                    tabs++;
+                    changeSwitch();
+                    break;
+                case 2:
+                    System.out.println(b+". Alagút létrehozása");
+                    tabs++;
+                    break;
+                case 3:
+                    System.out.println(b+". Alagút törlése");
+                    tabs++;
+                    break;
+                case 4:
+                    System.out.println(b+". Vonat mozgatása");
+                    tabs++;
+                    moveTrains();
+                    break;
+                case 5:
+                    System.out.println(b+". Leszállás");
+                    tabs++;
+                    break;
+                case 6:
+                    System.out.println(b+". Játék kimenete");
+                    tabs++;
+                    break;
+            }
 	}
 	public static void changeSwitch() {
-		System.out.print("? 1.1. Szeretné átállítani a váltó kimenetét? I/N: ");
-		char c = 0;
-		try{
-			c = (char) System.in.read();
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-		if (c == 'I' || c =='i') {
-			Switch s = new Switch(1, 1, null, null, null);
-			s.changeOutput();
-		}
-		tabs--;
+            System.out.print("? 1.1. Szeretné átállítani a váltó kimenetét? I/N: ");
+            char c = 0;
+            try{
+                c = (char) System.in.read();
+            } catch(Exception e) {
+                e.printStackTrace();
+            }
+            if (c == 'I' || c =='i') {
+                Switch s = new Switch(1, 1, null, null, null);
+                s.changeOutput();
+            }
+            tabs--;
 	}
         
         public static void moveTrains() {
