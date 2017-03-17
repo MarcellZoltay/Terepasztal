@@ -11,52 +11,72 @@
 
 package project;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    
-        public static int tabs = 0;
-        
-        // Ide soroljátok fel a többi menüpontot
-        static void printMenu() {
-            System.out.print("1. Váltó állítása\n");
-            System.out.print("? Please pick an option: ");
-        }
-
-	public static void main(String[] args) {
-            
-            Scanner sc = new Scanner(System.in);
-            int option;
-            
-            printMenu();
-            option = sc.nextInt();
-           
-            // Az elsőhöz hasonlóan a többi case-t
-            switch(option) {
-                case 1: changeSwitch(); tabs++;
-                    break;
-                    
-                default: System.out.print("\1nPick a viable option: ");
-            }
-            
+	public static int tabs = 0;
+	public static void main(String[] args){
+		int b;
+		while (true) {
+			b=menuWrite();
+			while (b < 1 || b > 6) {
+				System.out.println("Ilyen parancs nem létezik");
+				b = menuWrite();
+			}
+			runSkeleton(b);
+			b=menuWrite();
+		}
 	}
-        
-        // A függvény ami a ChangeSwitch szekvencia diagramot indítja
-        public static void changeSwitch() {
-            
-            System.out.print("- 1. Váltó állítása\n? 1.1. Szeretné átállítani a váltó kimenetét? I/N: ");
-            char c = 0;
-            try{
-                c = (char) System.in.read();
-            } catch(Exception e) {
-                e.printStackTrace();
-            }
-            if (c == 'I' || c =='i') {
-                Switch s = new Switch();
-                s.changeOutput(); 
-            }
-            
-            tabs--;
-        }
-
+	public static int menuWrite(){
+		System.out.println( "Menü:" +"\n"+
+				"1. Váltó állítása" +"\n"+
+				"2. Alagút létrehozása" +"\n"+
+				"3. Alagút törlése"+"\n" +
+				"4. Vonat mozgatása" +"\n" +
+				"5. Leszállás"+ "\n"+
+				"6. Játék kimenete"+ "\n"+ "\n"+
+				"? Adja meg a parancs kódját: "
+		);
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		return a;
+	}
+	public static void runSkeleton(int b) {
+		switch (b) {
+			case 1:
+				System.out.println(b+". Váltó állítása");
+				changeSwitch();
+				break;
+			case 2:
+				System.out.println(b+". Alagút létrehozása");
+				break;
+			case 3:
+				System.out.println(b+". Alagút törlése");
+				break;
+			case 4:
+				System.out.println(b+". Vonat mozgatása");
+				break;
+			case 5:
+				System.out.println(b+". Leszállás");
+				break;
+			case 6:
+				System.out.println(b+". Játék kimenete");
+				break;
+		}
+	}
+	public static void changeSwitch() {
+		System.out.print("? 1.1. Szeretné átállítani a váltó kimenetét? I/N: ");
+		char c = 0;
+		try{
+			c = (char) System.in.read();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		if (c == 'I' || c =='i') {
+			Switch s = new Switch();
+			s.changeOutput();
+		}
+		tabs--;
+	}
 }
