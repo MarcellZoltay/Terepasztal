@@ -24,14 +24,46 @@ public abstract class Node extends MapItem {
 	}
 	
 	public Train[] getTrains() {
-		return null;
+            Train trains[] = {new Engine(1, 2, 1, 3)};
+            Main.tabs++;
+            Status temp = Status.NOT_CRASHED;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Node].getTrains()\n");
+            
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Node].getTrains()\n");
+            
+            Main.tabs--;
+		return trains;
 	}
 	
 	public Node getNext() {
-		return null;
+            Main.tabs++;
+            Status temp = Status.NOT_CRASHED;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Node].getNext()\n");
+            
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Node].getNext()\n");
+            
+            Main.tabs--;
+            return nextNode;
 	}
 	
 	public void setNext(Node n) {
+            nextNode = n;
 	}
 	
 	public Node getPrev() {

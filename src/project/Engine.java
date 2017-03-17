@@ -13,7 +13,63 @@ package project;
 
 public class Engine extends Train {
 
-	public void Engine(int x, int y, int xE, int yE) {
-
+	public Engine(int x, int y, int xE, int yE) {
 	}
+        
+        @Override
+        public Status move() {
+            Main.tabs++;
+            Status temp = Status.NOT_CRASHED;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Engine].move()\n");
+            
+            Rail r1 = new Rail(1, 2, null, null);
+            Rail r2 = new Rail(2, 3, null, r1);
+            r1.setNext(r2);
+            
+            setOnNode(r1);
+            Node on = getOnNode();
+            Train trains[] = on.getTrains();
+            
+            System.out.print("?");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("? 4.1. Van ütközés? I/N: ");
+            char c = 0;
+            try{
+                c = (char) System.in.read();
+            } catch(Exception e) {
+                e.printStackTrace();
+            }
+            if (c == 'N' || c == 'n') {
+                on.getX();
+                on.getY();
+                on.getNext().getX();
+                on.getNext().getY();
+                setNextCar(new Car(1,1,1,2));
+                getNextCar().move();
+            }
+            if (c == 'I' || c == 'i') {
+                for(int i = 0; i < trains.length; i++) {
+                    trains[i].getX();
+                    trains[i].getY();
+                    trains[i].getEndX();
+                    trains[i].getEndY();
+                }
+                temp = Status.CRASHED;
+            }
+
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Engine].move()\n");
+            
+            Main.tabs--;
+            return temp;   
+        }
 }

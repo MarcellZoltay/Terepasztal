@@ -15,21 +15,23 @@ public class Switch extends Node {
 
 	private Node next2Node;
 
-	public void Switch(int x, int y, Node n, Node n2, Node p) {
+	public Switch(int x, int y, Node n, Node n2, Node p) {
 	}
 	
 	public void changeOutput() {
+            Main.tabs++;
             System.out.print(">");
-            for(int i = 0; i <= Main.tabs; i++) {
+            for(int i = 0; i < Main.tabs; i++) {
                 System.out.print("\t");
             }  
             System.out.print("->[:Switch].changeOutput()\n");
             
             System.out.print("<");
-            for(int i = 0; i <= Main.tabs; i++) {
+            for(int i = 0; i < Main.tabs; i++) {
                 System.out.print("\t");
             }  
             System.out.print("<-[:Switch].changeOutput()\n");
+            Main.tabs--;
 	}
 	
 	public Node getSecond() {

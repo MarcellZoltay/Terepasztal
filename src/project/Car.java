@@ -15,7 +15,7 @@ public class Car extends Train {
 
 	private Train prevTrain;
 
-	public void Car(int x, int y, int xE, int yE) {
+	public Car(int x, int y, int xE, int yE) {
 	}
 	
 	public void getOffPassengers() {
@@ -27,4 +27,34 @@ public class Car extends Train {
 	
 	public void setPrevTrain(Train t) {
 	}
+        
+        @Override
+        public Status move() {
+            Main.tabs++;
+            Status temp = Status.NOT_CRASHED;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Car].move()\n");
+            
+            Rail r1 = new Rail(1, 2, null, null);
+            Rail r2 = new Rail(2, 3, null, r1);
+            r1.setNext(r2);
+            
+            setOnNode(r1);
+            Node on = getOnNode();
+            on.getX();
+            on.getY();
+            on.getNext().getX();
+            on.getNext().getY();
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Car].move()\n");
+            
+            Main.tabs--;
+            return temp;   
+        }
 }

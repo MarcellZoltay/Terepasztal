@@ -11,20 +11,44 @@
 
 package project;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Model{
 
-	private Station[] stations;
-	private Switch[] switches;
-	private TunnelEntrance[] tunnelEntrances;
-	private Rail[] rails;
-	private Engine[] engines;
-	private Car[] cars;
+	private List<Station> stations;
+	private List<Switch> switches;
+	private List<TunnelEntrance> tunnelEntrances;
+	private List<Rail> rails;
+	private List<Engine> engines;
+	private List<Car> cars;
 
-	public void Model() {
+	public Model() {
+        this.engines = new ArrayList<Engine>();
 	}
 	
 	public Status moveEngines() {
-		return null;
+            Main.tabs++;
+            Status temp = Status.NOT_CRASHED;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Model].moveEngines()\n");
+
+            engines.add(new Engine(1,1,1,2)); 
+
+            for(int i = 0; i < engines.size(); i++) {
+                if ( engines.get(i).move() == Status.CRASHED) temp = Status.CRASHED;
+            }
+
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Model].moveEngines()\n");
+                
+            return temp;      
 	}
 	
 	public void addTrainToMap(int numberOfCars) {

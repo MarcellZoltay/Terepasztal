@@ -13,7 +13,8 @@ package project;
 
 public class TunnelEntrance extends Switch {
 
-	public void TunnelEntrance(int x, int y, Node n, Node n2, Node p) {
-
-	}
+    public TunnelEntrance(int x, int y, Node n, Node n2, Node p) {
+        super(x, y, n, n2, p);
+                
+    }
 }
