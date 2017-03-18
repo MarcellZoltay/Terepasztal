@@ -83,16 +83,23 @@ public class Main {
     public static void changeSwitch() {
         System.out.print("? 1.1. Szeretné átállítani a váltó kimenetét? I/N: ");
         char c = 0;
-            try {
-                c = (char) System.in.read();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            if (c == 'I' || c == 'i') {
-            Switch s = new Switch(1, 1, null, null, null);
-            s.changeOutput();
+		try {
+			c = (char) System.in.read();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		if (c == 'I' || c == 'i') {
+		Switch s = new Switch(1, 1, null, null, null);
+		s.changeOutput();
         }
     }
+	
+	private static void gameEnding(){
+		  System.out.println("- 6. Játék kimenete");
+
+		  Model m = new Model();
+		  m.moveEngines();
+	}
 
     public static void moveTrains() {
         Model map = new Model();
