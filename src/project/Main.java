@@ -94,7 +94,6 @@ public class Main {
     public static void getOffPass() {
         Car c1 = new Car();
         Car c2 = new Car();
-        c1.setNextCar(c2);
         c2.setPrevTrain(c1);
         Station st = new Station();
         st.addTrain(c2);
