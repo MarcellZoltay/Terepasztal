@@ -11,13 +11,55 @@
 
 package project;
 
+import javax.swing.*;
+
 public class TunnelEntrance extends Switch {
 
 	public TunnelEntrance(int x, int y, Node n, Node n2, Node p) {
 		super(x, y, n, n2, p);
 	}
 
-	public void TunnelEntrance(int x, int y, Node n, Node n2, Node p) {
+
+	@Override
+	public void changeOutput(){
+		Main.tabs++;
+		System.out.print(">");
+		for(int i = 0 ; i< Main.tabs ; i++){
+			System.out.print("\t");
+		}
+		System.out.println("->[:TunnelEntrance].changeOutput()");
+
+		System.out.print("<");
+		for(int i = 0; i < Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.println("<-[:TunnelEntrance].changeOutput()");
+
+		Main.tabs--;
 
 	}
+
+	@Override
+	public void setSecond(Node n){
+		Main.tabs++;
+		System.out.print(">");
+		for(int i = 0 ; i< Main.tabs ; i++){
+			System.out.print("\t");
+		}
+		System.out.println("->[:TunnelEntrance].setSecond(TunnelEntrance test)");
+
+		System.out.print("<");
+		for(int i = 0; i < Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.println("<-[:TunnelEntrance].setSecond(TunnelEntrance test)");
+
+		Main.tabs--;
+	}
+
+	@Override
+	public Node getSecond(){
+		return null;
+	}
+
 }

@@ -57,9 +57,11 @@ public class Main {
                 break;
             case 2:
                 System.out.println(b + ". Alagút létrehozása");
+                AddTunnelEntrance();
                 break;
             case 3:
                 System.out.println(b + ". Alagút törlése");
+                RemoveTunnelEntrance();
                 break;
             case 4:
                 System.out.println(b + ". Vonat mozgatása");
@@ -81,12 +83,12 @@ public class Main {
     public static void changeSwitch() {
         System.out.print("? 1.1. Szeretné átállítani a váltó kimenetét? I/N: ");
         char c = 0;
-        try {
-            c = (char) System.in.read();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        if (c == 'I' || c == 'i') {
+            try {
+                c = (char) System.in.read();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            if (c == 'I' || c == 'i') {
             Switch s = new Switch(1, 1, null, null, null);
             s.changeOutput();
         }
@@ -103,5 +105,91 @@ public class Main {
         c2.setPrevTrain(c1);
         Station st = new Station();
         st.addTrain(c2);
+    }
+
+    public static void AddTunnelEntrance () {
+        Main.tabs++;
+        TunnelEntrance test = new TunnelEntrance(0, 0, null, null, null);
+        System.out.print("?");
+        for(int j = 0 ; j < tabs ; j++){
+            System.out.print("\t");
+        }
+        System.out.print(" 2.1 Hány alagút van a pályán?  0/1/2: ");
+        int i = 0;
+        try {
+            i = Character.getNumericValue(System.in.read());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if (i == 0) {
+            System.out.print("?");
+            for(int j = 0 ; j < tabs ; j++){
+                System.out.print("\t");
+            }
+            System.out.print(" 2.2 Érvényes helyre akarja építeni? I/N: ");
+            char c = 0;
+            try {
+                System.in.read();
+                c = (char) System.in.read();
+                if (c == 'I' || c == 'i') {
+                    TunnelEntrance te = new TunnelEntrance(0, 0, null, null, null);
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+        if (i == 1) {
+            System.out.print("?");
+            for(int j = 0 ; j < tabs ; j++){
+                System.out.print("\t");
+            }
+            System.out.print(" 2.2 Érvényes helyre akarja építeni? I/N: ");
+            char c = 0;
+            try {
+                System.in.read();
+                c = (char) System.in.read();
+                if (c == 'I' || c == 'i') {
+                    TunnelEntrance te = new TunnelEntrance(0, 0, null, null, null);
+                    te.changeOutput();
+                    test.setSecond(te);
+                    test.changeOutput();
+                } else {
+                    //System.out.print("Kettőnél több alagutat nem hozhat létre! :( ");
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            Main.tabs--;
+        }
+    }
+
+    public static void RemoveTunnelEntrance(){
+        Main.tabs++;
+        TunnelEntrance test = new TunnelEntrance(0,0,null,null,null);
+        TunnelEntrance test1 = new TunnelEntrance(0,0,null,null,null);
+        System.out.print("?");
+        for(int j = 0 ; j < tabs ; j++){
+            System.out.print("\t");
+        }
+        System.out.print(" 3.1 Hány alagút van a pályán?  0/1/2: ");
+        int i = 0;
+        try {
+            i = Character.getNumericValue(System.in.read());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if (i == 2) {
+            test1.changeOutput();
+        }
+        if(i == 1){
+
+        }
+        else {
+            //System.out.print("Már nincs eltávolítandó alagút");
+        }
+        Main.tabs--;
     }
 }
