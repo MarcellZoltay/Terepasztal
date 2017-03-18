@@ -11,6 +11,9 @@
 
 package project;
 
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Car extends Train {
 
 	private Train prevTrain;
@@ -19,6 +22,18 @@ public class Car extends Train {
 	}
 	
 	public void getOffPassengers() {
+		System.out.print(">");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("->[:Car].getOffPassengers()\n");
+
+		System.out.print("<");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("<-[:Car].getOffPassengers()\n");
+
 	}
 	
 	public Train getPrevTrain() {
@@ -26,5 +41,42 @@ public class Car extends Train {
 	}
 	
 	public void setPrevTrain(Train t) {
+	}
+	public void setOnNode(Node n) {
+		System.out.print(">");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("->[:Car].setOnNode(st:Station)\n");
+
+		System.out.print("<");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("<-[:Car].setOnNode()\n");
+	}
+	public String getColor() {
+		System.out.print(">");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("->[:Car].getColor()\n");
+
+		System.out.print("?");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("5.1. Milyen színű a vagon? R/Green/B/Y/Gray :");
+		Scanner scanner = new Scanner(System.in);
+		String s;
+		s=scanner.nextLine();
+
+		System.out.print("<");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+
+		System.out.print("<-[:Car].getColor()\n");
+		return s;
 	}
 }

@@ -15,7 +15,7 @@ public class Switch extends Node {
 
 	private Node next2Node;
 
-	public void Switch(int x, int y, Node n, Node n2, Node p) {
+	public Switch(int x, int y, Node n, Node n2, Node p) {
 	}
 	
 	public void changeOutput() {

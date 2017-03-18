@@ -13,6 +13,8 @@
 package project;
 
 
+import java.util.Scanner;
+
 public class Station extends Node {
 
 	public void Station(int x, int y, Node n, Node p) {
@@ -31,13 +33,9 @@ public class Station extends Node {
 			System.out.print("\t");
 		}
 		System.out.print("5.2. Milyen színű az állomás? R/Green/B/Y/Gray :");
-		char c;
-		try{
-			c = (char) System.in.read();
-			c = (char) System.in.read();
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
+		Scanner scanner = new Scanner(System.in);
+		String s;
+		s=scanner.nextLine();
 
 		System.out.print("<");
 		for(int i = 0; i <= Main.tabs; i++) {
@@ -45,6 +43,27 @@ public class Station extends Node {
 		}
 		System.out.print("<-[:Station].getColor()\n");
 
-		return null;
+		return s;
+	}
+	public void addTrain(Train t) {
+		System.out.print(">");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("->[:Station].addCar(car: C)\n");
+
+		Main.tabs++;
+		t.setOnNode(this);
+		Car c=(Car)t;
+		if (t.getColor().equals(getColor()))
+			if (t.getNextCar().getColor().equals("Gray"))
+				c.getOffPassengers();
+		Main.tabs--;
+
+		System.out.print("<");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("<-[:Station].addCar()\n");
 	}
 }
