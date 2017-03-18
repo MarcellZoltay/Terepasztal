@@ -48,10 +48,11 @@ public abstract class Train extends MapItem {
 	}
 	
 	public Car getNextCar() {
-		return null;
+		return nexCar;
 	}
 	
 	public void setNextCar(Car c) {
+		nexCar=c;
 	}
 	
 	public String getColor() {
