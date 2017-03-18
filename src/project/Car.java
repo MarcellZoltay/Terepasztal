@@ -26,7 +26,9 @@ public class Car extends Train {
 			System.out.print("\t");
 		}
 		System.out.print("->[:Car].getOffPassengers()\n");
-
+		Main.tabs++;
+		if (getPrevTrain().getColor().equals("Gray"));
+		Main.tabs--;
 		System.out.print("<");
 		for(int i = 0; i <= Main.tabs; i++) {
 			System.out.print("\t");
