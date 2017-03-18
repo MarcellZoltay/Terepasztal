@@ -18,13 +18,15 @@ public class Main {
     public static int tabs = 0;
 
     public static void main(String[] args) {
-        int b;
+        int b=0;
+        while (b!=7){
         b = menuWrite();
-        while (b < 1 || b > 6) {
+        while (b < 1 || b > 7) {
             System.out.println("Ilyen parancs nem létezik");
             b = menuWrite();
         }
         runSkeleton(b);
+        }
     }
 
     public static int menuWrite() {
@@ -34,7 +36,8 @@ public class Main {
                 "3. Alagút törlése" + "\n" +
                 "4. Vonat mozgatása" + "\n" +
                 "5. Leszállás" + "\n" +
-                "6. Játék kimenete" + "\n" + "\n" +
+                "6. Játék kimenete" + "\n" +
+                "7. Kilépés" + "\n" +"\n" +
                 "? Adja meg a parancs kódját: "
         );
         Scanner sc = new Scanner(System.in);
@@ -68,6 +71,9 @@ public class Main {
                 break;
             case 6:
                 System.out.println(b + ". Játék kimenete");
+                break;
+            case 7:
+                System.out.println(b + ". Kilépés");
                 break;
         }
     }
