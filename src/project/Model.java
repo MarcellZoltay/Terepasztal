@@ -24,6 +24,50 @@ public class Model{
 	}
 	
 	public Status moveEngines() {
+		System.out.print(">");
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.println("->[:Model].moveEngines()");
+
+		System.out.print('?');
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("6.1. Van még vonat a pályán? I/N: ");
+
+		char c = 0;
+		try{
+			c = (char) System.in.read();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+
+		if (c == 'N' || c == 'n'){
+			System.out.print('?');
+
+			for(int i = 0; i <= Main.tabs; i++) {
+				System.out.print("\t");
+			}
+			System.out.print("6.2. Lesz még vonat a pályán? I/N: ");
+			char ch = 0;
+			try{
+				System.in.read();
+				ch = (char) System.in.read();
+			} catch(Exception e) {
+				e.printStackTrace();
+			}
+
+		}
+
+		System.out.print("<");
+
+		for(int i = 0; i <= Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("<-[:Model].moveEngines()\n");
+		Main.tabs--;
+
 		return null;
 	}
 	
