@@ -95,7 +95,8 @@ public class Main {
         Car c1 = new Car();
         Car c2 = new Car();
         c1.setNextCar(c2);
+        c2.setPrevTrain(c1);
         Station st = new Station();
-        st.addTrain(c1);
+        st.addTrain(c2);
     }
 }

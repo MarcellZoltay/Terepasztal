@@ -55,8 +55,8 @@ public class Station extends Node {
 		Main.tabs++;
 		t.setOnNode(this);
 		Car c=(Car)t;
-		if (t.getColor().equals(getColor()))
-			if (t.getNextCar().getColor().equals("Gray"))
+		if (c.getColor().equals(getColor()))
+			if (c.getPrevTrain().getColor().equals("Gray"))
 				c.getOffPassengers();
 		Main.tabs--;
 

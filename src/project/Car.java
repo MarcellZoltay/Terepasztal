@@ -20,7 +20,6 @@ public class Car extends Train {
 
 	public void Car(int x, int y, int xE, int yE) {
 	}
-	
 	public void getOffPassengers() {
 		System.out.print(">");
 		for(int i = 0; i <= Main.tabs; i++) {
@@ -35,12 +34,11 @@ public class Car extends Train {
 		System.out.print("<-[:Car].getOffPassengers()\n");
 
 	}
-	
 	public Train getPrevTrain() {
-		return null;
+		return prevTrain;
 	}
-	
 	public void setPrevTrain(Train t) {
+		prevTrain=t;
 	}
 	public void setOnNode(Node n) {
 		System.out.print(">");
