@@ -1,11 +1,11 @@
 package project;
 
-import static project.States.CONTINUE;
+import static project.Status.CONTINUE;
 
 public class Pause implements State {
 
     @Override
-    public States start() {
+    public Status start() {
 
         return CONTINUE;
 
