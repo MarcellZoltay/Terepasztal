@@ -2,6 +2,9 @@ package project;
 
 import java.util.Scanner;
 
+/**
+ * Az állomást megvalósító osztály, ami a Node osztályból származik
+ */
 public class Station extends Node {
 
 	public Station(int x, int y, Node n, Node p) {}

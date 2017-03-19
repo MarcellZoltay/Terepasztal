@@ -3,6 +3,9 @@ package project;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A modelt megvalósító osztály
+ */
 public class Model{
 
 	private List<Station> stations;
@@ -15,7 +18,11 @@ public class Model{
 	public Model() {
 			engines = new ArrayList<>();
 	}
-	
+
+	/**
+	 * A függvény mozgatja a vonatokat
+	 * @return Visszatér a Status enum egy értékével
+	 */
 	public Status moveEngines() {
 			Main.tabs++;
 			Status temp = Status.CONTINUE;
@@ -54,7 +61,10 @@ public class Model{
 			Main.tabs--;
 			return temp;
 	}
-	
+
+	/**
+	 *A függvény létrehoz egy szerelvényt és a pályára rakja azt
+	 */
 	public void addTrainToMap() {
 			Main.tabs++;
 
