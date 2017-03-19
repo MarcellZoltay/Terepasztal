@@ -27,7 +27,7 @@ public class Switch extends Node {
             Main.tabs--;
 	}
 
-	/**Gette metódus
+	/**Getter metódus
      *@return  Visszatér a második számu kinenetén szereplő elemmel.
      */
 	public Node getSecond() {
@@ -35,7 +35,7 @@ public class Switch extends Node {
 	}
 
 
-    /**Sette metódus
+    /**Setter metódus
      *@param n2 Beállítja a második számu kinenetén szereplő elemet.
      */
 	public void setSecond(Node n2) {

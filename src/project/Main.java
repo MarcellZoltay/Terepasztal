@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static int tabs = 0;
-
+    
     public static void main(String[] args) {
         int b = 0;
         do {
@@ -121,8 +121,8 @@ public class Main {
                 if (c == 'I' || c == 'i') {
                     TunnelEntrance test1 = new TunnelEntrance(0, 0, null, null, null);
                     TunnelEntrance test2 = new TunnelEntrance(0, 0, null, test1, null);
-                    test1.setSecond(test1);
                     test1.changeOutput();
+                    test1.setSecond(test2);
                     test2.changeOutput();
                 }
             } catch (Exception e) {

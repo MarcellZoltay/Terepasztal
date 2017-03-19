@@ -3,12 +3,19 @@ package project;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A csomópontokat megvalósító absztrakt osztály ami, a MapItem osztályból öröklődik
+ */
 public abstract class Node extends MapItem {
 
     protected List<Train> trainsOn = new ArrayList<Train>();
     protected Node nextNode;
     protected Node previousNode;
 
+    /**
+     * A csomóponthoz hozzáadja a kocsit vagy a mozdonyt
+     * @param t
+     */
 	public void addTrain(Train t) {
             Main.tabs++;
             System.out.print(">");
@@ -27,7 +34,11 @@ public abstract class Node extends MapItem {
 
             Main.tabs--;
 	}
-	
+
+    /**
+     * A csomópontból eltávolítja a kocsit vagy mozdonyt
+     * @param t
+     */
 	public void removeTrain(Train t) {	}
 	
 	public Train[] getTrains() {
@@ -48,7 +59,11 @@ public abstract class Node extends MapItem {
             Main.tabs--;
     		return trains;
 	}
-	
+
+    /**
+     * Getter metódus
+     * @return A következő csomópontot adja vissza
+     */
 	public Node getNext() {
             Main.tabs++;
             System.out.print(">");
@@ -66,15 +81,27 @@ public abstract class Node extends MapItem {
             Main.tabs--;
             return nextNode;
 	}
-	
+
+    /**
+     * Beállítja a csomópont következő csomópontját
+     * @param n Paramétere a beállítandó csomópont
+     */
 	public void setNext(Node n) {
             nextNode = n;
 	}
-	
+
+    /**
+     * Getter metódus
+     * @return Visszatér az előző csomóponttal
+     */
 	public Node getPrev() {
 		    return null;
 	}
-	
+
+    /**
+     * Setter metódus, beállítja az előző csomópontot
+     * @param p Paramétere a beállítandó csomópont
+     */
 	public void setPrev(Node p) {
 
 	}

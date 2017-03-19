@@ -1,5 +1,5 @@
 package project;
-/**A pályán elhelyezett elemeket összefogó osztály
+/**A pályán elhelyezett elemeket absztrakt összefogó osztály
  */
 public abstract class MapItem {
 
