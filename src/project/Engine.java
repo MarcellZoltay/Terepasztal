@@ -1,11 +1,15 @@
 package project;
 
 import java.util.Scanner;
-
+/**Mozdonyt megvalósító osztály
+ */
 public class Engine extends Train {
 
 	public Engine(int x, int y, int xE, int yE) {}
-        
+
+    /**Mozgatja a vagont, kezeli az új helyzethez kapcsolodó teendőket
+     *@return Status: A lépés során keletkezett állapot kezeléséhez szükséges
+     */
     @Override
     public Status move() {
             Main.tabs++;
@@ -58,7 +62,10 @@ public class Engine extends Train {
             Main.tabs--;
             return temp;
     }
-        
+
+    /**Getter metódus.
+     *@return A vagon színével tér vissza, ha üres: null
+     */
     @Override
     public String getColor() {
             Main.tabs++;
@@ -78,6 +85,9 @@ public class Engine extends Train {
             return null;
     }
 
+    /**Setter metódus, A vagont követő vagont állítja be.
+     *@param c: A beállítandó vagon.
+     */
     @Override
     public void setNextCar(Car c){
             Main.tabs++;

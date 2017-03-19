@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class Station extends Node {
 
 	public Station(int x, int y, Node n, Node p) {}
-	
+
+	/**Getter metódus.
+     *@return Az állomás színével tér vissza.
+     */
 	public String getColor(){
             Main.tabs++;
             System.out.print(">");
@@ -33,7 +36,10 @@ public class Station extends Node {
             Main.tabs--;
             return s;
 	}
-        
+
+    /**Elmenti az állomáson lévő Train elemet.
+     *@param t: A beállítandó vagon.
+     */
     @Override
 	public void addTrain(Train t) {
             Main.tabs++;
@@ -43,6 +49,8 @@ public class Station extends Node {
             }
             System.out.print("->[:Station].addTrain()\n");
 
+            //Amennyiben a megadott Train elem szine megegyezik az állomáséval
+            //Meghívja az utasok leszállítását
             t.setOnNode(this);
             if (t.getColor().equals(getColor()))
                 ((Car)t).getOffPassengers();

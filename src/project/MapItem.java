@@ -1,10 +1,14 @@
 package project;
-
+/**A pályán elhelyezett elemeket összefogó osztály
+ */
 public abstract class MapItem {
 
 	protected int x;
     protected int y;
 
+    /**Getter metódus.
+    *@return A pályaelem helyének x kordinátájával tér vissza.
+    */
 	public int getX() {
             Main.tabs++;
             System.out.print(">");
@@ -22,7 +26,10 @@ public abstract class MapItem {
             Main.tabs--;
             return 0;
 	}
-	
+
+	/**Getter metódus.
+    *@return A pályaelem helyének y kordinátájával tér vissza.
+     */
 	public int getY() {
             Main.tabs++;
             System.out.print(">");

@@ -1,11 +1,15 @@
 package project;
 
+/** A váltót megvalósító osztály.
+ */
 public class Switch extends Node {
 
 	protected Node next2Node;
 
 	public Switch(int x, int y, Node n, Node n2, Node p) {}
-	
+
+	/**Váltó állítás, az ellenkező állásba állítja a kimenetét.
+     */
 	public void changeOutput() {
             Main.tabs++;
             System.out.print(">");
@@ -22,11 +26,18 @@ public class Switch extends Node {
 
             Main.tabs--;
 	}
-	
+
+	/**Gette metódus
+     *@return  Visszatér a második számu kinenetén szereplő elemmel.
+     */
 	public Node getSecond() {
 	    	return next2Node;
 	}
-	
+
+
+    /**Sette metódus
+     *@param n2 Beállítja a második számu kinenetén szereplő elemet.
+     */
 	public void setSecond(Node n2) {
             Main.tabs++;
             System.out.print(">");

@@ -1,7 +1,8 @@
 package project;
 
 import java.util.Scanner;
-
+/**Vagont megvalósító osztály
+ */
 public class Car extends Train {
 
 	private Train prevTrain;
@@ -10,7 +11,10 @@ public class Car extends Train {
 	public Car(int x, int y, int xE, int yE, String c) {
            color = c;
 	}
-        
+
+    /**Mozgatja a vagont, kezeli az új helyzethez kapcsolodó teendőket
+     *@return Status: A lépés során keletkezett állapot kezeléséhez szükséges
+     */
     @Override
     public Status move() {
             Main.tabs++;
@@ -56,7 +60,9 @@ public class Car extends Train {
             Main.tabs--;
             return temp;   
         }
-        
+
+    /**Megvizsgálja hogy leszállhatnak-e az utasok és leszállítja a vagon utasait.
+     */
 	public void getOffPassengers() {
             Main.tabs++;
             System.out.print(">");
@@ -78,6 +84,9 @@ public class Car extends Train {
             Main.tabs--;
 	}
 
+    /**Getter metódus.
+     *@return A megelöző vagont adja vissza
+     */
 	public Train getPrevTrain() {
             Main.tabs++;
             System.out.print(">");
@@ -96,6 +105,9 @@ public class Car extends Train {
             return prevTrain;
 	}
 
+    /**Setter metódus, A vagont megelöző vagont állítja be.
+     *@param t: A beállítandó vagon.
+     */
 	public void setPrevTrain(Train t) {
             Main.tabs++;
             System.out.print(">");
@@ -116,7 +128,10 @@ public class Car extends Train {
             Main.tabs--;
 	}
 
-	@Override
+    /**Setter metódus, A vagont követő vagont állítja be.
+     *@param c: A beállítandó vagon.
+     */
+    @Override
     public void setNextCar(Car c){
             Main.tabs++;
             System.out.print(">");
@@ -141,7 +156,10 @@ public class Car extends Train {
 
             Main.tabs--;
     }
-        
+
+    /**Getter metódus.
+     *@return A vagon színével tér vissza, ha üres: null
+     */
     @Override
 	public String getColor() {
             Main.tabs++;
@@ -167,6 +185,8 @@ public class Car extends Train {
 
             System.out.print("<-[:Car].getColor()\n");
             Main.tabs--;
+
+            //Szürke kocsi szín esetén üresnek tekintjük a vagont,
             if (s.equals("Gray") || s.equals("gray")) return null;
             return s;
 	}
