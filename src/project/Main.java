@@ -18,6 +18,9 @@ public class Main {
         } while (b != 6);
     }
 
+    /**Megjeleníti a menüt
+     * @return A kiválasztott menüpont számával visszatér
+     */
     private static int menuWrite() {
         System.out.print("\n \nMenü:" + "\n" +
                 "1. Váltó állítása" + "\n" +
@@ -36,6 +39,9 @@ public class Main {
         return a;
     }
 
+    /**Az átadott paraméterhez tartozó menüpontot elindítja
+    *@param b: A menű sorszáma.
+    */
     private static void runSkeleton(int b) {
         switch (b) {
             case 1:
@@ -64,6 +70,11 @@ public class Main {
         }
     }
 
+    //---------------------------------------------------
+    //           Menüpontok megvalósítása               |
+    //---------------------------------------------------
+    /**1. Váltó állítása menüponthoz tartozó megvalósítás
+     */
     private static void changeSwitch() {
         System.out.print("? 1.1 Szeretné átállítani a váltó kimenetét? I/N: ");
         char c = 0;
@@ -78,6 +89,8 @@ public class Main {
         }
     }
 
+    /**2. Alagút létrehozása menüponthoz tartozó megvalósítás
+     */
     private static void addTunnelEntrance () {
         System.out.print("? 2.1 Hány alagút van a pályán?  0/1/2: ");
         int i = 0;
@@ -118,6 +131,8 @@ public class Main {
         }
     }
 
+    /**3. Alagút törlésée menüponthoz tartozó megvalósítás
+     */
     private static void removeTunnelEntrance(){
         TunnelEntrance test2 = new TunnelEntrance(0,0,null,null,null);
         TunnelEntrance test1 = new TunnelEntrance(0,0,null,null,null);
@@ -136,11 +151,15 @@ public class Main {
         }
     }
 
+    /**4. Vonat mozgatása menüponthoz tartozó megvalósítás
+     */
     private static void moveTrains() {
         Model map = new Model();
         map.moveEngines();
     }
 
+    /**5.Vonat hozzáadása menüponthoz tartozó megvalósítás
+     */
     private static void addTrainToMap(){
         System.out.print("? 5.1 Szeretne vonatot adni a pályához? I/N: ");
         char c = 0;
