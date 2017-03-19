@@ -17,10 +17,38 @@ public abstract class MapItem {
 	private int y;
 
 	public int getX() {
-		return 0;
+            Main.tabs++;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:MapItem].getX()\n");
+
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:MapItem].getX()\n");
+            
+            Main.tabs--;
+            return 0;
 	}
 	
 	public int getY() {
-		return 0;
+            Main.tabs++;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:MapItem].getY()\n");
+
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:MapItem].getY()\n");
+            
+            Main.tabs--;
+            return 0;
 	}
 }

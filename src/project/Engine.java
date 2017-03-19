@@ -11,9 +11,82 @@
 
 package project;
 
+import java.util.Scanner;
+
 public class Engine extends Train {
 
-	public void Engine(int x, int y, int xE, int yE) {
-
+	public Engine(int x, int y, int xE, int yE) {
+            setNextCar(new Car(1,1,1,2, null));
 	}
+        
+        @Override
+        public Status move() {
+            Main.tabs++;
+            Status temp = Status.CONTINUE;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Engine].move()\n");
+            
+            Node on = getOnNode();
+            Train trains[] = on.getNext().getTrains();
+            trains[0].getX();
+            trains[0].getY();
+            trains[0].getEndX();
+            trains[0].getEndY();
+            
+            System.out.print("?");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("? 4.1. Van ütközés? I/N: ");
+            Scanner sc = new Scanner(System.in);
+            String s = "";
+            try{
+                s = sc.nextLine();
+            } catch(Exception e) {
+                e.printStackTrace();
+            }
+            if (s.equals("N") || s.equals("n")) {
+                on.getX();
+                on.getY();
+                Node next = on.getNext();
+                next.getX();
+                next.getY();
+                next.addTrain(this);
+                getNextCar().move();
+            }
+            if (s.equals("I") || s.equals("i")) {
+                temp = Status.GAMEOVER;
+            }
+
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Engine].move()\n");
+            
+            Main.tabs--;
+            return temp;   
+        }
+        
+        @Override
+        public String getColor() {
+            Main.tabs++;
+            System.out.print(">");
+		for(int i = 0; i < Main.tabs; i++) {
+			System.out.print("\t");
+		}
+		System.out.print("->[:Engine].getColor()\n");
+
+		System.out.print("<");
+		for(int i = 0; i < Main.tabs; i++) {
+			System.out.print("\t");
+		}
+
+		System.out.print("<-[:Engine].getColor()\n");
+                Main.tabs--;
+            return null;
+        }
 }

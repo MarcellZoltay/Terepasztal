@@ -19,43 +19,115 @@ public abstract class Train extends MapItem {
 	private int yEnd;
 	private Node onNode;
 	private Node prevNode;
-	private Car nexCar;
+	private Car nextCar;
 
 	public Status move() {
-		return null;
+            return null;
 	}
 	
 	public int getEndX() {
-		return 0;
+            Main.tabs++;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Train].getEndX()\n");
+
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Train].getEndX()\n");
+            
+            Main.tabs--;
+            return 0;
 	}
 	
 	public int getEndY() {
-		return 0;
+            Main.tabs++;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Train].getEndY()\n");
+
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Train].getEndY()\n");
+            
+            Main.tabs--;
+            return 0;
 	}
 	
 	public Node getOnNode() {
-		return null;
+            Main.tabs++;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Train].getOnNode()\n");
+
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Train].getOnNode()\n");
+            
+            Main.tabs--;
+            return onNode;
 	}
-	
+        
 	public void setOnNode(Node n) {
+            Main.tabs++;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                    System.out.print("\t");
+            }
+            System.out.print("->[:Train].setOnNode()\n");
+
+            onNode = n;
+
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                    System.out.print("\t");
+            }
+            System.out.print("<-[:Train].setOnNode()\n");
+            Main.tabs--;
 	}
 	
 	public Node getPrevNode() {
-		return null;
+            return null;
 	}
 	
 	public void setPrevNode(Node p) {
 	}
 	
 	public Car getNextCar() {
-		return nexCar;
+            Main.tabs++;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Train].getNextCar()\n");
+            
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Train].getNextCar()\n");
+            
+            Main.tabs--;
+            
+            return nextCar;
 	}
 	
 	public void setNextCar(Car c) {
-		nexCar=c;
+            nextCar = c;
 	}
 	
 	public String getColor() {
-		return null;
+            return null;
 	}
 }

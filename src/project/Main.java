@@ -18,15 +18,16 @@ public class Main {
     public static int tabs = 0;
 
     public static void main(String[] args) {
-        int b=0;
-        while (b!=7){
-        b = menuWrite();
-        while (b < 1 || b > 7) {
-            System.out.println("Ilyen parancs nem létezik");
+        int b = 0;
+        do {
             b = menuWrite();
-        }
-        runSkeleton(b);
-        }
+            if (b < 1 || b > 6) {
+                System.out.print("Ilyen parancs nem létezik!");
+            }
+            else {
+                runSkeleton(b);
+            }
+        } while (b != 6);
     }
 
     public static int menuWrite() {
@@ -35,17 +36,15 @@ public class Main {
                 "2. Alagút létrehozása" + "\n" +
                 "3. Alagút törlése" + "\n" +
                 "4. Vonat mozgatása" + "\n" +
-                "5. Leszállás" + "\n" +
-                "6. Játék kimenete" + "\n" +
-                "7. Kilépés" + "\n" +"\n" +
+                "5. Vonat hozzáadás" + "\n" +
+                "6. Kilépés" + "\n" +"\n" +
                 "? Adja meg a parancs kódját: "
         );
         Scanner sc = new Scanner(System.in);
         int a = 0;
         try {
             a = sc.nextInt();
-        } catch (Exception e) {
-        }
+        } catch (Exception e) {}
         return a;
     }
 
@@ -57,59 +56,91 @@ public class Main {
                 break;
             case 2:
                 System.out.println(b + ". Alagút létrehozása");
+                AddTunnelEntrance();
                 break;
             case 3:
                 System.out.println(b + ". Alagút törlése");
+                RemoveTunnelEntrance();
                 break;
             case 4:
                 System.out.println(b + ". Vonat mozgatása");
                 moveTrains();
                 break;
             case 5:
-                System.out.println(b + ". Leszállás");
-                getOffPass();
+                System.out.println(b + ". Vonat hozzáadása");
+                // Ide add majd a hozzáadást
                 break;
             case 6:
-                System.out.println(b + ". Játék kimenete");
-                gameEnding(); tabs++;
-                break;
-            case 7:
                 System.out.println(b + ". Kilépés");
                 break;
         }
     }
 
     public static void changeSwitch() {
-        System.out.print("? 1.1. Szeretné átállítani a váltó kimenetét? I/N: ");
-        char c = 0;
+        Switch s = new Switch(1, 1, null, null, null);
+        s.changeOutput();
+    }
+
+    public static void moveTrains() {
+        Model map = new Model();
+        map.moveEngines();
+    }
+    
+    public static void AddTunnelEntrance () {
+        System.out.print("? 2.1 Hány alagút van a pályán?  0/1/2: ");
+        int i = 0;
         try {
-            c = (char) System.in.read();
+            i = Character.getNumericValue(System.in.read());
         } catch (Exception e) {
             e.printStackTrace();
         }
-        if (c == 'I' || c == 'i') {
-            Switch s = new Switch(1, 1, null, null, null);
-            s.changeOutput();
+        if (i == 0) {
+            System.out.print("? 2.2 Érvényes helyre akarja építeni? I/N: ");
+            char c = 0;
+            try {
+                System.in.read();
+                c = (char) System.in.read();
+                if (c == 'I' || c == 'i') {
+                    TunnelEntrance te = new TunnelEntrance(0, 0, null, null, null);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        if (i == 1) {
+            System.out.print("? 2.2 Érvényes helyre akarja építeni? I/N: ");
+            char c = 0;
+            try {
+                System.in.read();
+                c = (char) System.in.read();
+                if (c == 'I' || c == 'i') {
+                    TunnelEntrance test1 = new TunnelEntrance(0, 0, null, null, null);
+                    TunnelEntrance test2 = new TunnelEntrance(0, 0, null, test1, null);
+                    test1.setSecond(test1);
+                    test1.changeOutput();
+                    test2.changeOutput();
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 
-	private static void gameEnding(){
-		  System.out.println("- 6. Játék kimenete");
-
-		  Model m = new Model();
-		  m.moveEngines();
-	}
-  
-  public static void moveTrains() {
-        Model map = new Model();
-        map.moveEngines();
-  }
-
-  public static void getOffPass() {
-        Car c1 = new Car();
-        Car c2 = new Car();
-        c2.setPrevTrain(c1);
-        Station st = new Station();
-        st.addTrain(c2);
-  }
+    public static void RemoveTunnelEntrance(){
+        TunnelEntrance test2 = new TunnelEntrance(0,0,null,null,null);
+        TunnelEntrance test1 = new TunnelEntrance(0,0,null,null,null);
+        System.out.print("? 3.1 Hány alagút van a pályán?  0/1/2: ");
+        int i = 0;
+        try {
+            i = Character.getNumericValue(System.in.read());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if (i == 2) {
+            test1.changeOutput();
+        }
+        if(i == 1){
+            
+        }
+    }
 }

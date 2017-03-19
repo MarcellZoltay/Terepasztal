@@ -11,64 +11,55 @@
 
 package project;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Model{
 
-	private Station[] stations;
-	private Switch[] switches;
-	private TunnelEntrance[] tunnelEntrances;
-	private Rail[] rails;
-	private Engine[] engines;
-	private Car[] cars;
+	private List<Station> stations;
+	private List<Switch> switches;
+	private List<TunnelEntrance> tunnelEntrances;
+	private List<Rail> rails;
+	private List<Engine> engines;
+	private List<Car> cars;
 
-	public void Model() {
+	public Model() {
+            engines = new ArrayList<>();
 	}
 	
-	public Status moveEngines() {
-		System.out.print(">");
-		for(int i = 0; i <= Main.tabs; i++) {
-			System.out.print("\t");
-		}
-		System.out.println("->[:Model].moveEngines()");
+        public Status moveEngines() {
+            Main.tabs++;
+            Status temp = Status.CONTINUE;
+            System.out.print(">");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("->[:Model].moveEngines()\n");
 
-		System.out.print('?');
-		for(int i = 0; i <= Main.tabs; i++) {
-			System.out.print("\t");
-		}
-		System.out.print("6.1. Van még vonat a pályán? I/N: ");
+            engines.add(new Engine(1,1,1,2));
+            
+            
+            /*  Muszáj initelni, hogy működjön a függvény, emiatt lesz pár 'felesleges' függvényhívás,
+            *   mely a végleges programban nem lesz.
+            */
+            Rail r1 = new Rail(1, 2, null, null);
+            Rail r2 = new Rail(2, 3, null, r1);
+            r1.setNext(r2);
+            
+            engines.get(0).setOnNode(r1);
+            engines.get(0).getNextCar().setOnNode(engines.get(0).getOnNode());
 
-		char c = 0;
-		try{
-			c = (char) System.in.read();
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
+            for(int i = 0; i < engines.size(); i++) {
+                if ( engines.get(i).move() == Status.GAMEOVER) temp = Status.GAMEOVER;
+            }
 
-		if (c == 'N' || c == 'n'){
-			System.out.print('?');
-
-			for(int i = 0; i <= Main.tabs; i++) {
-				System.out.print("\t");
-			}
-			System.out.print("6.2. Lesz még vonat a pályán? I/N: ");
-			char ch = 0;
-			try{
-				System.in.read();
-				ch = (char) System.in.read();
-			} catch(Exception e) {
-				e.printStackTrace();
-			}
-
-		}
-
-		System.out.print("<");
-
-		for(int i = 0; i <= Main.tabs; i++) {
-			System.out.print("\t");
-		}
-		System.out.print("<-[:Model].moveEngines()\n");
-		Main.tabs--;
-
-		return null;
+            System.out.print("<");
+            for(int i = 0; i < Main.tabs; i++) {
+                System.out.print("\t");
+            }
+            System.out.print("<-[:Model].moveEngines()\n");
+            Main.tabs--;
+            return temp;      
 	}
 	
 	public void addTrainToMap(int numberOfCars) {
