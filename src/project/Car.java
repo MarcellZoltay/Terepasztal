@@ -8,7 +8,6 @@ public class Car extends Train {
 	private Train prevTrain;
     private String color;
 
-
 	public Car(int x, int y, int xE, int yE, String c) {
            color = c;
 	}
@@ -107,7 +106,7 @@ public class Car extends Train {
 	}
 
     /**Setter metódus, A vagont megelöző vagont állítja be.
-     *@param c: A beállítandó vagon.
+     *@param t: A beállítandó vagon.
      */
 	public void setPrevTrain(Train t) {
             Main.tabs++;

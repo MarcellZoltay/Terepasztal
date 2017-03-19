@@ -1,5 +1,6 @@
 package project;
-
+/**A Car-t és az Engint öszzefogó absztrakt osztály.
+ */
 public abstract class Train extends MapItem {
 
     protected int xEnd;
@@ -108,9 +109,15 @@ public abstract class Train extends MapItem {
             Main.tabs--;
             return nextCar;
 	}
-	
+
+	/**Setter metódus, A vagont követő vagont állítja be.
+     *@param c: A beállítandó vagon.
+     */
 	public void setNextCar(Car c) {	}
-	
+
+	/**Getter metódus.
+     *@return A vagon színével tér vissza, ha üres: null
+     */
 	public String getColor() {
             return null;
 	}
