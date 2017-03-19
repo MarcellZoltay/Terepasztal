@@ -8,9 +8,7 @@ public class Manager {
     private Deque<State> list;
 
     public Manager(){
-
         list = new ArrayDeque<>();
-
     }
 
     public void run(){
