@@ -2,15 +2,14 @@ package project;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-
-public class Manager {
+/**Üzleti modell, manageli a játék állapotokat.
+*/
+ public class Manager {
 
     private Deque<State> list;
 
     public Manager(){
-
         list = new ArrayDeque<>();
-
     }
 
     public void run(){
