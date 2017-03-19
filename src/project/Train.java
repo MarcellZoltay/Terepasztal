@@ -12,7 +12,10 @@ public abstract class Train extends MapItem {
 	public Status move() {
             return null;
 	}
-	
+
+    /**Getter metódus.
+     *@return A vagon, mozdony hátsóponjának helyzetétnek x koordinátája.
+     */
 	public int getEndX() {
             Main.tabs++;
             System.out.print(">");
@@ -30,7 +33,10 @@ public abstract class Train extends MapItem {
             Main.tabs--;
             return 0;
 	}
-	
+
+    /**Getter metódus.
+     *@return A vagon, mozdony hátsóponjának helyzetétnek y koordinátája.
+     */
 	public int getEndY() {
             Main.tabs++;
             System.out.print(">");
@@ -48,7 +54,10 @@ public abstract class Train extends MapItem {
             Main.tabs--;
             return 0;
 	}
-	
+
+    /**Getter metódus.
+     *@return Visszatér az aktuális csomópontal amin tartózkodik a vagon, mozdony.
+     */
 	public Node getOnNode() {
             Main.tabs++;
             System.out.print(">");
@@ -66,7 +75,10 @@ public abstract class Train extends MapItem {
             Main.tabs--;
             return onNode;
 	}
-        
+
+	/**Setter metódus.
+     *@return Beállítja hogy milyen csomóponton áll a vagon, mozdony.
+     */
 	public void setOnNode(Node n) {
             Main.tabs++;
             System.out.print(">");
@@ -84,14 +96,20 @@ public abstract class Train extends MapItem {
             System.out.print("<-[:Train].setOnNode()\n");
             Main.tabs--;
 	}
-	
+
+	/**Getter metódus.
+     *@return A vagon színével tér vissza, ha üres: null
+     */
 	public Node getPrevNode() {
             return null;
 	}
-	
+
 	public void setPrevNode(Node p) {
 	}
-	
+
+    /**Getter metódus
+     *@return  A traint kövező vagonnal tér vissza.
+     */
 	public Car getNextCar() {
             Main.tabs++;
             System.out.print(">");
