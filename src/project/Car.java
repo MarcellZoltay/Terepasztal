@@ -30,7 +30,7 @@ public class Car extends Train {
             for(int i = 0; i < Main.tabs; i++) {
                 System.out.print("\t");
             }
-            System.out.print("4.2 Állomásra lép a vagon? I/N: ");
+            System.out.print("4.2 Allomasra lep a vagon? I/N: ");
 
             Scanner sc = new Scanner(System.in);
             String s = "";
@@ -173,7 +173,7 @@ public class Car extends Train {
             for(int i = 0; i < Main.tabs; i++) {
                 System.out.print("\t");
             }
-            System.out.print("5.1. Milyen színű a vagon? R/Green/B/Y/Gray :");
+            System.out.print("5.1. Milyen szinu a vagon? R/Green/B/Y/Gray :");
             Scanner scanner = new Scanner(System.in);
             String s;
             s = scanner.nextLine();
